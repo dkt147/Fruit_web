@@ -16,3 +16,9 @@
     <link rel="stylesheet" href="assets/css/plugins/magnific-popup/magnific-popup.css">
     <!-- Main CSS File -->
     <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="floating-wpp.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif
+        }
+    </style>

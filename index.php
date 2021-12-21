@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Molla - Bootstrap eCommerce Template</title>
+    <title>Daily needs</title>
     <meta name="keywords" content="HTML5 Template">
     <meta name="description" content="Molla - Bootstrap eCommerce Template">
     <meta name="author" content="p-themes">
@@ -37,15 +37,15 @@
                                         <figure class="slide-image">
                                             <picture>
                                                 <source media="(max-width: 480px)" srcset="assets/images/slider/slide-1-480w.jpg">
-                                                <img src="assets/images/slider/slide-1.jpg" alt="Image Desc">
+                                                <img src="images/banner3.jpg" alt="Image Desc">
                                             </picture>
                                         </figure><!-- End .slide-image -->
 
                                         <div class="intro-content">
-                                            <h3 class="intro-subtitle">Topsale Collection</h3><!-- End .h3 intro-subtitle -->
-                                            <h1 class="intro-title">Living Room<br>Furniture</h1><!-- End .intro-title -->
+                                            <h3 class="intro-subtitle">Top Sale Fruits & Vegetables</h3><!-- End .h3 intro-subtitle -->
+                                            <h1 class="intro-title">Fresh & Organic<br>Fruits</h1><!-- End .intro-title -->
 
-                                            <a href="category.html" class="btn btn-outline-white">
+                                            <a href="category.php" class="btn btn-outline-white">
                                                 <span>SHOP NOW</span>
                                                 <i class="icon-long-arrow-right"></i>
                                             </a>
@@ -56,15 +56,15 @@
                                         <figure class="slide-image">
                                             <picture>
                                                 <source media="(max-width: 480px)" srcset="assets/images/slider/slide-2-480w.jpg">
-                                                <img src="assets/images/slider/slide-2.jpg" alt="Image Desc">
+                                                <img src="images/banner1.jpg" alt="Image Desc">
                                             </picture>
                                         </figure><!-- End .slide-image -->
 
                                         <div class="intro-content">
-                                            <h3 class="intro-subtitle">News and Inspiration</h3><!-- End .h3 intro-subtitle -->
-                                            <h1 class="intro-title">New Arrivals</h1><!-- End .intro-title -->
+                                            <h3 class="intro-subtitle">Organic Manufacturing</h3><!-- End .h3 intro-subtitle -->
+                                            <h1 class="intro-title">All Fruits & Vegetables</h1><!-- End .intro-title -->
 
-                                            <a href="category.html" class="btn btn-outline-white">
+                                            <a href="category.php" class="btn btn-outline-white">
                                                 <span>SHOP NOW</span>
                                                 <i class="icon-long-arrow-right"></i>
                                             </a>
@@ -75,15 +75,15 @@
                                         <figure class="slide-image">
                                             <picture>
                                                 <source media="(max-width: 480px)" srcset="assets/images/slider/slide-3-480w.jpg">
-                                                <img src="assets/images/slider/slide-3.jpg" alt="Image Desc">
+                                                <img src="images/banner2.jpg" alt="Image Desc">
                                             </picture>
                                         </figure><!-- End .slide-image -->
 
                                         <div class="intro-content">
-                                            <h3 class="intro-subtitle">Outdoor Furniture</h3><!-- End .h3 intro-subtitle -->
-                                            <h1 class="intro-title">Outdoor Dining <br>Furniture</h1><!-- End .intro-title -->
+                                            <h3 class="intro-subtitle">Delivery at your office</h3><!-- End .h3 intro-subtitle -->
+                                            <h1 class="intro-title">Outdoor Delivery at<br> Mininum cost</h1><!-- End .intro-title -->
 
-                                            <a href="category.html" class="btn btn-outline-white">
+                                            <a href="category.php" class="btn btn-outline-white">
                                                 <span>SHOP NOW</span>
                                                 <i class="icon-long-arrow-right"></i>
                                             </a>
@@ -104,9 +104,9 @@
                                             </a>
 
                                             <div class="banner-content">
-                                                <h4 class="banner-subtitle text-darkwhite"><a href="#">Clearence</a></h4><!-- End .banner-subtitle -->
-                                                <h3 class="banner-title text-white"><a href="#">Chairs & Chaises <br>Up to 40% off</a></h3><!-- End .banner-title -->
-                                                <a href="#" class="btn btn-outline-white banner-link">Shop Now<i class="icon-long-arrow-right"></i></a>
+                                                <h4 class="banner-subtitle text-darkwhite"><a href="#">Delivery</a></h4><!-- End .banner-subtitle -->
+                                                <h3 class="banner-title text-white"><a href="#">Home & Office<br>Within an hour</a></h3><!-- End .banner-title -->
+                                                <a href="category.php" class="btn btn-outline-white banner-link">Shop Now<i class="icon-long-arrow-right"></i></a>
                                             </div><!-- End .banner-content -->
                                         </div><!-- End .banner -->
                                     </div><!-- End .col-md-6 col-lg-12 -->
@@ -114,13 +114,13 @@
                                     <div class="col-md-6 col-lg-12">
                                         <div class="banner banner-display mb-0">
                                             <a href="#">
-                                                <img src="assets/images/banners/home/intro/banner-2.jpg" alt="Banner">
+                                                <img src="assets/images/banners/home/intro/banner-1.jpg" alt="Banner">
                                             </a>
 
                                             <div class="banner-content">
-                                                <h4 class="banner-subtitle text-darkwhite"><a href="#">New in</a></h4><!-- End .banner-subtitle -->
-                                                <h3 class="banner-title text-white"><a href="#">Best Lighting <br>Collection</a></h3><!-- End .banner-title -->
-                                                <a href="#" class="btn btn-outline-white banner-link">Discover Now<i class="icon-long-arrow-right"></i></a>
+                                                <h4 class="banner-subtitle text-darkwhite"><a href="#">New items</a></h4><!-- End .banner-subtitle -->
+                                                <h3 class="banner-title text-white"><a href="#">Best Selling <br>Fruits</a></h3><!-- End .banner-title -->
+                                                <a href="category.php" class="btn btn-outline-white banner-link">Discover Now<i class="icon-long-arrow-right"></i></a>
                                             </div><!-- End .banner-content -->
                                         </div><!-- End .banner -->
                                     </div><!-- End .col-md-6 col-lg-12 -->
@@ -193,13 +193,13 @@
                             <a class="nav-link active" id="trendy-all-link" data-toggle="tab" href="#trendy-all-tab" role="tab" aria-controls="trendy-all-tab" aria-selected="true">All</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="trendy-fur-link" data-toggle="tab" href="#trendy-fur-tab" role="tab" aria-controls="trendy-fur-tab" aria-selected="false">Furniture</a>
+                            <a class="nav-link" id="trendy-fur-link" data-toggle="tab" href="#trendy-fur-tab" role="tab" aria-controls="trendy-fur-tab" aria-selected="false">Top Selling</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="trendy-decor-link" data-toggle="tab" href="#trendy-decor-tab" role="tab" aria-controls="trendy-decor-tab" aria-selected="false">Decor</a>
+                            <a class="nav-link" id="trendy-decor-link" data-toggle="tab" href="#trendy-decor-tab" role="tab" aria-controls="trendy-decor-tab" aria-selected="false">New Items</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="trendy-light-link" data-toggle="tab" href="#trendy-light-tab" role="tab" aria-controls="trendy-light-tab" aria-selected="false">Lighting</a>
+                            <a class="nav-link" id="trendy-light-link" data-toggle="tab" href="#trendy-light-tab" role="tab" aria-controls="trendy-light-tab" aria-selected="false">Lighting Fresh</a>
                         </li>
                     </ul>
                 </div><!-- End .heading -->
@@ -448,9 +448,9 @@
                                 <figure class="product-media">
                                     <span class="product-label label-new">NEW</span>
                                     <a href="product.html">
-                                        <img src="assets/images/demos/demo-2/products/product-3-1.jpg" alt="Product image" class="product-image">
-                                        <img src="assets/images/demos/demo-2/products/product-3-2.jpg" alt="Product image" class="product-image-hover">
-                                    </a>
+                                    <img src="images/v1.jpg" alt="Product image" class="product-image">
+                                        <img src="images/v1.jpg" alt="Product image" class="product-image-hover">
+                                  </a>
 
                                     <div class="product-action-vertical">
                                         <a href="#" class="btn-product-icon btn-wishlist"><span>add to wishlist</span></a>
@@ -473,8 +473,8 @@
                                 <figure class="product-media">
                                     <span class="product-label label-sale">30% OFF</span>
                                     <a href="product.html">
-                                        <img src="assets/images/demos/demo-2/products/product-4-1.jpg" alt="Product image" class="product-image">
-                                        <img src="assets/images/demos/demo-2/products/product-4-2.jpg" alt="Product image" class="product-image-hover">
+                                    <img src="images/v1.jpg" alt="Product image" class="product-image">
+                                        <img src="images/v1.jpg" alt="Product image" class="product-image-hover">
                                     </a>
 
                                     <div class="product-action-vertical">
@@ -531,9 +531,9 @@
                             <div class="product product-11 text-center">
                                 <figure class="product-media">
                                     <a href="product.html">
-                                        <img src="assets/images/demos/demo-2/products/product-1-1.jpg" alt="Product image" class="product-image">
-                                        <img src="assets/images/demos/demo-2/products/product-1-2.jpg" alt="Product image" class="product-image-hover">
-                                    </a>
+                                    <img src="images/v1.jpg" alt="Product image" class="product-image">
+                                        <img src="images/v1.jpg" alt="Product image" class="product-image-hover">
+                                      </a>
 
                                     <div class="product-action-vertical">
                                         <a href="#" class="btn-product-icon btn-wishlist"><span>add to wishlist</span></a>
@@ -553,9 +553,9 @@
                             <div class="product product-11 text-center">
                                 <figure class="product-media">
                                     <a href="product.html">
-                                        <img src="assets/images/demos/demo-2/products/product-6-1.jpg" alt="Product image" class="product-image">
-                                        <img src="assets/images/demos/demo-2/products/product-6-2.jpg" alt="Product image" class="product-image-hover">
-                                    </a>
+                                    <img src="images/v1.jpg" alt="Product image" class="product-image">
+                                        <img src="images/v1.jpg" alt="Product image" class="product-image-hover">
+                                     </a>
 
                                     <div class="product-action-vertical">
                                         <a href="#" class="btn-product-icon btn-wishlist"><span>add to wishlist</span></a>
@@ -605,9 +605,9 @@
                             <div class="product product-11 text-center">
                                 <figure class="product-media">
                                     <a href="product.html">
-                                        <img src="assets/images/demos/demo-2/products/product-2-1.jpg" alt="Product image" class="product-image">
-                                        <img src="assets/images/demos/demo-2/products/product-2-2.jpg" alt="Product image" class="product-image-hover">
-                                    </a>
+                                    <img src="images/v1.jpg" alt="Product image" class="product-image">
+                                        <img src="images/v1.jpg" alt="Product image" class="product-image-hover">
+                                          </a>
 
                                     <div class="product-action-vertical">
                                         <a href="#" class="btn-product-icon btn-wishlist"><span>add to wishlist</span></a>
@@ -632,9 +632,9 @@
                             <div class="product product-11 text-center">
                                 <figure class="product-media">
                                     <a href="product.html">
-                                        <img src="assets/images/demos/demo-2/products/product-5-1.jpg" alt="Product image" class="product-image">
-                                        <img src="assets/images/demos/demo-2/products/product-5-2.jpg" alt="Product image" class="product-image-hover">
-                                    </a>
+                                    <img src="images/v1.jpg" alt="Product image" class="product-image">
+                                        <img src="images/v1.jpg" alt="Product image" class="product-image-hover">
+                                         </a>
 
                                     <div class="product-action-vertical">
                                         <a href="#" class="btn-product-icon btn-wishlist"><span>add to wishlist</span></a>
@@ -674,7 +674,7 @@
 
                 			<div class="banner-content banner-content-center">
                 				<h3 class="banner-title text-white"><a href="#">Outdoor</a></h3><!-- End .banner-title -->
-                				<a href="#" class="btn btn-outline-white banner-link">Shop Now<i class="icon-long-arrow-right"></i></a>
+                				<a href="category.php" class="btn btn-outline-white banner-link">Shop Now<i class="icon-long-arrow-right"></i></a>
                 			</div><!-- End .banner-content -->
             			</div><!-- End .banner -->
         			</div><!-- End .col-sm-6 col-lg-3 -->
@@ -686,7 +686,7 @@
 
                 			<div class="banner-content banner-content-center">
                 				<h3 class="banner-title text-white"><a href="#">Lighting</a></h3><!-- End .banner-title -->
-                				<a href="#" class="btn btn-outline-white banner-link">Shop Now<i class="icon-long-arrow-right"></i></a>
+                				<a href="category.php" class="btn btn-outline-white banner-link">Shop Now<i class="icon-long-arrow-right"></i></a>
                 			</div><!-- End .banner-content -->
             			</div><!-- End .banner -->
         			</div><!-- End .col-sm-6 col-lg-3 -->
@@ -698,8 +698,8 @@
                     			</a>
 
                     			<div class="banner-content banner-content-center">
-                    				<h3 class="banner-title text-white"><a href="#">Furniture and Design</a></h3><!-- End .banner-title -->
-                    				<a href="#" class="btn btn-outline-white banner-link">Shop Now<i class="icon-long-arrow-right"></i></a>
+                    				<h3 class="banner-title text-white"><a href="#">Fresh and Healthy</a></h3><!-- End .banner-title -->
+                    				<a href="category.php" class="btn btn-outline-white banner-link">Shop Now<i class="icon-long-arrow-right"></i></a>
                     			</div><!-- End .banner-content -->
                 			</div><!-- End .banner -->
 
@@ -709,8 +709,8 @@
                     			</a>
 
                     			<div class="banner-content banner-content-center">
-                    				<h3 class="banner-title text-white"><a href="#">Kitchen & Utensil</a></h3><!-- End .banner-title -->
-                    				<a href="#" class="btn btn-outline-white banner-link">Shop Now<i class="icon-long-arrow-right"></i></a>
+                    				<h3 class="banner-title text-white"><a href="#">High Protein & Vitamins</a></h3><!-- End .banner-title -->
+                    				<a href="category.php" class="btn btn-outline-white banner-link">Shop Now<i class="icon-long-arrow-right"></i></a>
                     			</div><!-- End .banner-content -->
                 			</div><!-- End .banner -->
                         </div>
@@ -1217,9 +1217,9 @@
                         </div><!-- End .products -->
                     </div><!-- .End .tab-pane -->
                 </div><!-- End .tab-content -->
-                <div class="more-container text-center">
+                <!-- <div class="more-container text-center">
                     <a href="#" class="btn btn-outline-darker btn-more"><span>Load more products</span><i class="icon-long-arrow-down"></i></a>
-                </div><!-- End .more-container -->
+                </div> -->
             </div><!-- End .container -->
 
             <div class="container">
@@ -1359,7 +1359,7 @@
                 </div><!-- container -->
 
                 <div class="more-container text-center mb-0 mt-3">
-                    <a href="blog.html" class="btn btn-outline-darker btn-more"><span>View more articles</span><i class="icon-long-arrow-right"></i></a>
+                    <a href="blog-listing.php" class="btn btn-outline-darker btn-more"><span>View more articles</span><i class="icon-long-arrow-right"></i></a>
                 </div><!-- End .more-container -->
             </div>
             <div class="cta cta-display bg-image pt-4 pb-4" style="background-image: url(assets/images/backgrounds/cta/bg-6.jpg);">

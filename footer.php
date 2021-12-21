@@ -1,3 +1,4 @@
+ <div id="myButton"></div>
 <footer class="footer footer-dark">
         	<div class="footer-middle">
 	            <div class="container">
@@ -266,10 +267,29 @@
                         </div>
                     </div>
                     <div class="col-xl-2-5col col-lg-5 ">
-                        <img src="assets/images/popup/newsletter/img-1.jpg" class="newsletter-img" alt="newsletter">
+                        <img src="images/banner2.jpg" class="newsletter-img" alt="newsletter">
                     </div>
                 </div>
             </div>
         </div>
     </div>
- 
+
+
+<script type="text/javascript">
+    $(function () {
+        $('#myButton').floatingWhatsApp({
+            phone: '5491133359850',
+            popupMessage: 'Hello, how can we help you?',
+            message: "I'd like to order a pizza",
+            showPopup: true,
+            showOnIE: false,
+            headerTitle: 'Welcome!',
+            headerColor: 'crimson',
+            backgroundColor: 'crimson',
+            buttonImage: '<img src="burger.svg" />'
+        });
+    });
+</script>
+  <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="floating-wpp.js"></script>
+   
