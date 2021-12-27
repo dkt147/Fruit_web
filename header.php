@@ -27,9 +27,8 @@
                     <div class="header-right">
                         <ul class="top-menu">
                             <li>
-                                <a href="#">Links</a>
                                 <ul>
-                                    <li><a href="tel:#"><i class="icon-phone"></i>Call: +0123 456 789</a></li>
+                                    <li><a href="tel:#"><i class="icon-phone"></i>Call: +92 317 2746242</a></li>
                                     <li><a href="wishlist.php"><i class="icon-heart-o"></i>My Wishlist <span>(3)</span></a></li>
                                     <li><a href="about.php">About Us</a></li>
                                     <li><a href="contact.php">Contact Us</a></li>
