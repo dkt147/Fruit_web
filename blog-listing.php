@@ -40,7 +40,7 @@
                                 <div class="row align-items-center">
                                     <div class="col-md-5">
                                         <figure class="entry-media">
-                                            <a href="single.html">
+                                            <a href="product-detail.php">
                                                 <img src="assets/images/blog/listing/post-1.jpg" alt="image desc">
                                             </a>
                                         </figure><!-- End .entry-media -->
@@ -59,7 +59,7 @@
                                             </div><!-- End .entry-meta -->
 
                                             <h2 class="entry-title">
-                                                <a href="single.html">Cras ornare tristique elit.</a>
+                                                <a href="product-detail.php">Cras ornare tristique elit.</a>
                                             </h2><!-- End .entry-title -->
 
                                             <div class="entry-cats">
@@ -69,7 +69,7 @@
 
                                             <div class="entry-content">
                                                 <p>Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti. Sed egestas ... </p>
-                                                <a href="single.html" class="read-more">Continue Reading</a>
+                                                <a href="product-detail.php" class="read-more">Continue Reading</a>
                                             </div><!-- End .entry-content -->
                                         </div><!-- End .entry-body -->
                                     </div><!-- End .col-md-7 -->
@@ -80,7 +80,7 @@
                                 <div class="row align-items-center">
                                     <div class="col-md-5">
                                         <figure class="entry-media entry-video">
-                                            <a href="single.html">
+                                            <a href="product-detail.php">
                                                 <img src="assets/images/blog/listing/post-2.jpg" alt="image desc">
                                             </a>
                                         </figure><!-- End .entry-media -->
@@ -99,7 +99,7 @@
                                             </div><!-- End .entry-meta -->
 
                                             <h2 class="entry-title">
-                                                <a href="single.html">Facilisis aliquam porttitor mauris sit  amet orci.</a>
+                                                <a href="product-detail.php">Facilisis aliquam porttitor mauris sit  amet orci.</a>
                                             </h2><!-- End .entry-title -->
 
                                             <div class="entry-cats">
@@ -108,7 +108,7 @@
 
                                             <div class="entry-content">
                                                 <p>Morbi purus libero, faucibus commodo quis, gravida id, est. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui ... </p>
-                                                <a href="single.html" class="read-more">Continue Reading</a>
+                                                <a href="product-detail.php" class="read-more">Continue Reading</a>
                                             </div><!-- End .entry-content -->
                                         </div><!-- End .entry-body -->
                                     </div><!-- End .col-md-7 -->
@@ -120,10 +120,10 @@
                                     <div class="col-md-5">
                                         <figure class="entry-media">
                                             <div class="owl-carousel owl-simple owl-light owl-nav-inside" data-toggle="owl">
-                                                <a href="single.html">
+                                                <a href="product-detail.php">
                                                     <img src="assets/images/blog/listing/post-3.jpg" alt="image desc">
                                                 </a>
-                                                <a href="single.html">
+                                                <a href="product-detail.php">
                                                     <img src="assets/images/blog/listing/post-1.jpg" alt="image desc">
                                                 </a>
                                             </div><!-- End .owl-carousel -->
@@ -143,7 +143,7 @@
                                             </div><!-- End .entry-meta -->
 
                                             <h2 class="entry-title">
-                                                <a href="single.html">Utaliquam sollicitudin leo.</a>
+                                                <a href="product-detail.php">Utaliquam sollicitudin leo.</a>
                                             </h2><!-- End .entry-title -->
 
                                             <div class="entry-cats">
@@ -153,7 +153,7 @@
 
                                             <div class="entry-content">
                                                 <p>Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti. Sed egestas ... </p>
-                                                <a href="single.html" class="read-more">Continue Reading</a>
+                                                <a href="product-detail.php" class="read-more">Continue Reading</a>
                                             </div><!-- End .entry-content -->
                                         </div><!-- End .entry-body -->
                                     </div><!-- End .col-md-7 -->
@@ -164,7 +164,7 @@
                                 <div class="row align-items-center">
                                     <div class="col-md-5">
                                         <figure class="entry-media">
-                                            <a href="single.html">
+                                            <a href="product-detail.php">
                                                 <img src="assets/images/blog/listing/post-4.jpg" alt="image desc">
                                             </a>
                                         </figure><!-- End .entry-media -->
@@ -183,7 +183,7 @@
                                             </div><!-- End .entry-meta -->
 
                                             <h2 class="entry-title">
-                                                <a href="single.html">Fusce pellentesque suscipit.</a>
+                                                <a href="product-detail.php">Fusce pellentesque suscipit.</a>
                                             </h2><!-- End .entry-title -->
 
                                             <div class="entry-cats">
@@ -192,7 +192,7 @@
 
                                             <div class="entry-content">
                                                 <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Aliquam erat volutpat eget felis ... </p>
-                                                <a href="single.html" class="read-more">Continue Reading</a>
+                                                <a href="product-detail.php" class="read-more">Continue Reading</a>
                                             </div><!-- End .entry-content -->
                                         </div><!-- End .entry-body -->
                                     </div><!-- End .col-md-7 -->
@@ -203,7 +203,7 @@
                                 <div class="row align-items-center">
                                     <div class="col-md-5">
                                         <figure class="entry-media">
-                                            <a href="single.html">
+                                            <a href="product-detail.php">
                                                 <img src="assets/images/blog/listing/post-5.jpg" alt="image desc">
                                             </a>
                                         </figure><!-- End .entry-media -->
@@ -222,7 +222,7 @@
                                             </div><!-- End .entry-meta -->
 
                                             <h2 class="entry-title">
-                                                <a href="single.html">Donec nec justo eget felis facilisis  fermentum.</a>
+                                                <a href="product-detail.php">Donec nec justo eget felis facilisis  fermentum.</a>
                                             </h2><!-- End .entry-title -->
 
                                             <div class="entry-cats">
@@ -231,7 +231,7 @@
 
                                             <div class="entry-content">
                                                 <p>Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus. Phasellus ultrices nulla quis nibh. Quisque lectus. Donec consectetuer ligula vulputate sem ...</p>
-                                                <a href="single.html" class="read-more">Continue Reading</a>
+                                                <a href="product-detail.php" class="read-more">Continue Reading</a>
                                             </div><!-- End .entry-content -->
                                         </div><!-- End .entry-body -->
                                     </div><!-- End .col-md-7 -->
@@ -242,7 +242,7 @@
                                 <div class="row align-items-center">
                                     <div class="col-md-5">
                                         <figure class="entry-media">
-                                            <a href="single.html">
+                                            <a href="product-detail.php">
                                                 <img src="assets/images/blog/listing/post-6.jpg" alt="image desc">
                                             </a>
                                         </figure><!-- End .entry-media -->
@@ -261,7 +261,7 @@
                                             </div><!-- End .entry-meta -->
 
                                             <h2 class="entry-title">
-                                                <a href="single.html">Quisque volutpat mattiseros.</a>
+                                                <a href="product-detail.php">Quisque volutpat mattiseros.</a>
                                             </h2><!-- End .entry-title -->
 
                                             <div class="entry-cats">
@@ -271,7 +271,7 @@
 
                                             <div class="entry-content">
                                                 <p>Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus. Phasellus ultrices nulla quis nibh. Quisque lectus. Donec consectetuer ...</p>
-                                                <a href="single.html" class="read-more">Continue Reading</a>
+                                                <a href="product-detail.php" class="read-more">Continue Reading</a>
                                             </div><!-- End .entry-content -->
                                         </div><!-- End .entry-body -->
                                     </div><!-- End .col-md-7 -->
