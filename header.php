@@ -64,11 +64,12 @@
 
                                 </li>
                                 <li>
-                                    <a href="#" >Pages</a>
+                                    <a href="blog-listing.php" >Blog</a>
 
                                 </li>
+                                
                                 <li>
-                                    <a href="blog-listing.php" >Blog</a>
+                                    <a href="faq.php" >FAQ's</a>
 
                                 </li>
                                 <li>
