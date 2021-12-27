@@ -1289,7 +1289,7 @@
                         }'>
                         <article class="entry entry-display">
                             <figure class="entry-media">
-                                <a href="single.html">
+                                <a href="category.php">
                                     <img src="assets/images/blog/home/post-1.jpg" alt="image desc">
                                 </a>
                             </figure><!-- End .entry-media -->
@@ -1300,19 +1300,19 @@
                                 </div><!-- End .entry-meta -->
 
                                 <h3 class="entry-title">
-                                    <a href="single.html">Sed adipiscing ornare.</a>
+                                    <a href="category.php">Sed adipiscing ornare.</a>
                                 </h3><!-- End .entry-title -->
 
                                 <div class="entry-content">
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit.<br>Pelletesque aliquet nibh necurna. </p>
-                                    <a href="single.html" class="read-more">Read More</a>
+                                    <a href="category.php" class="read-more">Read More</a>
                                 </div><!-- End .entry-content -->
                             </div><!-- End .entry-body -->
                         </article><!-- End .entry -->
 
                         <article class="entry entry-display">
                             <figure class="entry-media">
-                                <a href="single.html">
+                                <a href="category.php">
                                     <img src="assets/images/blog/home/post-2.jpg" alt="image desc">
                                 </a>
                             </figure><!-- End .entry-media -->
@@ -1323,19 +1323,19 @@
                                 </div><!-- End .entry-meta -->
 
                                 <h3 class="entry-title">
-                                    <a href="single.html">Fusce lacinia arcuet nulla.</a>
+                                    <a href="category.php">Fusce lacinia arcuet nulla.</a>
                                 </h3><!-- End .entry-title -->
 
                                 <div class="entry-content">
                                     <p>Sed pretium, ligula sollicitudin laoreet<br>viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis justo. </p>
-                                    <a href="single.html" class="read-more">Read More</a>
+                                    <a href="category.php" class="read-more">Read More</a>
                                 </div><!-- End .entry-content -->
                             </div><!-- End .entry-body -->
                         </article><!-- End .entry -->
 
                         <article class="entry entry-display">
                             <figure class="entry-media">
-                                <a href="single.html">
+                                <a href="category.php">
                                     <img src="assets/images/blog/home/post-3.jpg" alt="image desc">
                                 </a>
                             </figure><!-- End .entry-media -->
@@ -1346,12 +1346,12 @@
                                 </div><!-- End .entry-meta -->
 
                                 <h3 class="entry-title">
-                                    <a href="single.html">Quisque volutpat mattis eros.</a>
+                                    <a href="category.php">Quisque volutpat mattis eros.</a>
                                 </h3><!-- End .entry-title -->
 
                                 <div class="entry-content">
                                     <p>Suspendisse potenti. Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. </p>
-                                    <a href="single.html" class="read-more">Read More</a>
+                                    <a href="category.php" class="read-more">Read More</a>
                                 </div><!-- End .entry-content -->
                             </div><!-- End .entry-body -->
                         </article><!-- End .entry -->
@@ -1373,7 +1373,7 @@
                                 </div><!-- End .col -->
 
                                 <div class="col-auto">
-                                    <a href="login.html" class="btn btn-outline-white"><span>SIGN UP</span><i class="icon-long-arrow-right"></i></a>
+                                    <a href="login.php" class="btn btn-outline-white"><span>SIGN UP</span><i class="icon-long-arrow-right"></i></a>
                                 </div><!-- End .col-auto -->
                             </div><!-- End .row no-gutters -->
                         </div><!-- End .col-md-10 col-lg-9 -->

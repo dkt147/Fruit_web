@@ -15,7 +15,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/icons/favicon-16x16.png">
-    <link rel="manifest" href="assets/images/icons/site.html">
+    <link rel="manifest" href="assets/images/icons/site.php">
     <link rel="mask-icon" href="assets/images/icons/safari-pinned-tab.svg" color="#666666">
     <link rel="shortcut icon" href="assets/images/icons/favicon.ico">
     <meta name="apple-mobile-web-app-title" content="Molla">
@@ -44,10 +44,8 @@
             <nav aria-label="breadcrumb" class="breadcrumb-nav mb-2">
                 <div class="container">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item"><a href="#">Shop</a></li>
-                        <li class="breadcrumb-item"><a href="#">No Sidebar</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Boxed</li>
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                        <li class="breadcrumb-item active"><a href="#">Shop</a></li>
                     </ol>
                 </div><!-- End .container -->
             </nav><!-- End .breadcrumb-nav -->
@@ -85,7 +83,7 @@
                                 <div class="product">
                                     <figure class="product-media">
                                         <span class="product-label label-new">New</span>
-                                        <a href="product.html">
+                                        <a href="product-detail.php">
                                             <img src="assets/images/products/product-1.jpg" alt="Product image" class="product-image">
                                         </a>
 
@@ -95,7 +93,7 @@
 
                                         <div class="product-action action-icon-top">
                                             <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
-                                            <a href="popup/quickView.html" class="btn-product btn-quickview" title="Quick view"><span>quick view</span></a>
+                                            <a href="popup/quickView.php" class="btn-product btn-quickview" title="Quick view"><span>quick view</span></a>
                                             <a href="#" class="btn-product btn-compare" title="Compare"><span>compare</span></a>
                                         </div><!-- End .product-action -->
                                     </figure><!-- End .product-media -->
@@ -104,7 +102,7 @@
                                         <div class="product-cat">
                                             <a href="#">Women</a>
                                         </div><!-- End .product-cat -->
-                                        <h3 class="product-title"><a href="product.html">Nunc dignissim risus</a></h3><!-- End .product-title -->
+                                        <h3 class="product-title"><a href="product-detail.php">Nunc dignissim risus</a></h3><!-- End .product-title -->
                                         <div class="product-price">
                                             $50.00
                                         </div><!-- End .product-price -->
@@ -126,7 +124,7 @@
                             <div class="col-6 col-md-4 col-lg-4 col-xl-3">
                                 <div class="product">
                                     <figure class="product-media">
-                                        <a href="product.html">
+                                        <a href="product-detail.php">
                                             <img src="assets/images/products/product-2.jpg" alt="Product image" class="product-image">
                                         </a>
 
@@ -145,7 +143,7 @@
                                         <div class="product-cat">
                                             <a href="#">Accessories</a>
                                         </div><!-- End .product-cat -->
-                                        <h3 class="product-title"><a href="product.html">Cras ornare tristique</a></h3><!-- End .product-title -->
+                                        <h3 class="product-title"><a href="product-detail.php">Cras ornare tristique</a></h3><!-- End .product-title -->
                                         <div class="product-price">
                                             $32.00
                                         </div><!-- End .product-price -->
@@ -163,7 +161,7 @@
                                 <div class="product">
                                     <figure class="product-media">
                                         <span class="product-label label-sale">30% off</span>
-                                        <a href="product.html">
+                                        <a href="product-detail.php">
                                             <img src="assets/images/products/product-3.jpg" alt="Product image" class="product-image">
                                         </a>
 
@@ -173,7 +171,7 @@
 
                                         <div class="product-action action-icon-top">
                                             <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
-                                            <a href="popup/quickView.html" class="btn-product btn-quickview" title="Quick view"><span>quick view</span></a>
+                                            <a href="popup/quickView.php" class="btn-product btn-quickview" title="Quick view"><span>quick view</span></a>
                                             <a href="#" class="btn-product btn-compare" title="Compare"><span>compare</span></a>
                                         </div><!-- End .product-action -->
                                     </figure><!-- End .product-media -->
@@ -182,7 +180,7 @@
                                         <div class="product-cat">
                                             <a href="#">Women</a>
                                         </div><!-- End .product-cat -->
-                                        <h3 class="product-title"><a href="product-detail.html">Aliquam tincidunt mauris</a></h3><!-- End .product-title -->
+                                        <h3 class="product-title"><a href="product-detail.php">Aliquam tincidunt mauris</a></h3><!-- End .product-title -->
                                         <div class="product-price">
                                             <span class="new-price">$50.00</span>
                                             <span class="old-price">$84.00</span>
@@ -206,7 +204,7 @@
                             <div class="col-6 col-md-4 col-lg-4 col-xl-3">
                                 <div class="product">
                                     <figure class="product-media">
-                                        <a href="product.html">
+                                        <a href="product-detail.php">
                                             <img src="assets/images/products/product-4.jpg" alt="Product image" class="product-image">
                                         </a>
 
@@ -216,7 +214,7 @@
 
                                         <div class="product-action action-icon-top">
                                             <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
-                                            <a href="popup/quickView.html" class="btn-product btn-quickview" title="Quick view"><span>quick view</span></a>
+                                            <a href="popup/quickView.php" class="btn-product btn-quickview" title="Quick view"><span>quick view</span></a>
                                             <a href="#" class="btn-product btn-compare" title="Compare"><span>compare</span></a>
                                         </div><!-- End .product-action -->
                                     </figure><!-- End .product-media -->
@@ -225,7 +223,7 @@
                                         <div class="product-cat">
                                             <a href="#">Dresses</a>
                                         </div><!-- End .product-cat -->
-                                        <h3 class="product-title"><a href="product.html">Brown paperbag waist pencil skirt</a></h3><!-- End .product-title -->
+                                        <h3 class="product-title"><a href="product-detail.php">Brown paperbag waist pencil skirt</a></h3><!-- End .product-title -->
                                         <div class="product-price">
                                             $60.00
                                         </div><!-- End .product-price -->
@@ -248,7 +246,7 @@
                             <div class="col-6 col-md-4 col-lg-4 col-xl-3">
                                 <div class="product">
                                     <figure class="product-media">
-                                        <a href="product.html">
+                                        <a href="product-detail.php">
                                             <img src="assets/images/products/product-5.jpg" alt="Product image" class="product-image">
                                         </a>
 
@@ -258,7 +256,7 @@
 
                                         <div class="product-action action-icon-top">
                                             <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
-                                            <a href="popup/quickView.html" class="btn-product btn-quickview" title="Quick view"><span>quick view</span></a>
+                                            <a href="popup/quickView.php" class="btn-product btn-quickview" title="Quick view"><span>quick view</span></a>
                                             <a href="#" class="btn-product btn-compare" title="Compare"><span>compare</span></a>
                                         </div><!-- End .product-action -->
                                     </figure><!-- End .product-media -->
@@ -267,7 +265,7 @@
                                         <div class="product-cat">
                                             <a href="#">Dresses</a>
                                         </div><!-- End .product-cat -->
-                                        <h3 class="product-title"><a href="product.html">Dark yellow lace cut out swing dress</a></h3><!-- End .product-title -->
+                                        <h3 class="product-title"><a href="product-detail.php">Dark yellow lace cut out swing dress</a></h3><!-- End .product-title -->
                                         <div class="product-price">
                                             $84.00
                                         </div><!-- End .product-price -->
@@ -290,7 +288,7 @@
                                 <div class="product">
                                     <figure class="product-media">
                                         <span class="product-label label-out">Out of stock</span>
-                                        <a href="product.html">
+                                        <a href="product-detail.php">
                                             <img src="assets/images/products/product-6.jpg" alt="Product image" class="product-image">
                                         </a>
 
@@ -300,7 +298,7 @@
 
                                         <div class="product-action action-icon-top">
                                             <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
-                                            <a href="popup/quickView.html" class="btn-product btn-quickview" title="Quick view"><span>quick view</span></a>
+                                            <a href="popup/quickView.php" class="btn-product btn-quickview" title="Quick view"><span>quick view</span></a>
                                             <a href="#" class="btn-product btn-compare" title="Compare"><span>compare</span></a>
                                         </div><!-- End .product-action -->
                                     </figure><!-- End .product-media -->
@@ -309,7 +307,7 @@
                                         <div class="product-cat">
                                             <a href="#">Jackets</a>
                                         </div><!-- End .product-cat -->
-                                        <h3 class="product-title"><a href="product.html">Khaki utility boiler jumpsuit</a></h3><!-- End .product-title -->
+                                        <h3 class="product-title"><a href="product-detail.php">Khaki utility boiler jumpsuit</a></h3><!-- End .product-title -->
                                         <div class="product-price">
                                             <span class="out-price">$120.00</span>
                                         </div><!-- End .product-price -->
@@ -326,7 +324,7 @@
                             <div class="col-6 col-md-4 col-lg-4 col-xl-3">
                                 <div class="product">
                                     <figure class="product-media">
-                                        <a href="product.html">
+                                        <a href="product-detail.php">
                                             <img src="assets/images/products/product-7.jpg" alt="Product image" class="product-image">
                                         </a>
 
@@ -336,7 +334,7 @@
 
                                         <div class="product-action action-icon-top">
                                             <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
-                                            <a href="popup/quickView.html" class="btn-product btn-quickview" title="Quick view"><span>quick view</span></a>
+                                            <a href="popup/quickView.php" class="btn-product btn-quickview" title="Quick view"><span>quick view</span></a>
                                             <a href="#" class="btn-product btn-compare" title="Compare"><span>compare</span></a>
                                         </div><!-- End .product-action -->
                                     </figure><!-- End .product-media -->
@@ -345,7 +343,7 @@
                                         <div class="product-cat">
                                             <a href="#">Jeans</a>
                                         </div><!-- End .product-cat -->
-                                        <h3 class="product-title"><a href="product.html">Blue utility pinafore denim dress</a></h3><!-- End .product-title -->
+                                        <h3 class="product-title"><a href="product-detail.php">Blue utility pinafore denim dress</a></h3><!-- End .product-title -->
                                         <div class="product-price">
                                             $76.00
                                         </div><!-- End .product-price -->
@@ -362,7 +360,7 @@
                             <div class="col-6 col-md-4 col-lg-4 col-xl-3">
                                 <div class="product">
                                     <figure class="product-media">
-                                        <a href="product.html">
+                                        <a href="product-detail.php">
                                             <img src="assets/images/products/product-8.jpg" alt="Product image" class="product-image">
                                         </a>
 
@@ -372,7 +370,7 @@
 
                                         <div class="product-action action-icon-top">
                                             <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
-                                            <a href="popup/quickView.html" class="btn-product btn-quickview" title="Quick view"><span>quick view</span></a>
+                                            <a href="popup/quickView.php" class="btn-product btn-quickview" title="Quick view"><span>quick view</span></a>
                                             <a href="#" class="btn-product btn-compare" title="Compare"><span>compare</span></a>
                                         </div><!-- End .product-action -->
                                     </figure><!-- End .product-media -->
@@ -381,7 +379,7 @@
                                         <div class="product-cat">
                                             <a href="#">Shoes</a>
                                         </div><!-- End .product-cat -->
-                                        <h3 class="product-title"><a href="product.html">Beige knitted elastic runner shoes</a></h3><!-- End .product-title -->
+                                        <h3 class="product-title"><a href="product-detail.php">Beige knitted elastic runner shoes</a></h3><!-- End .product-title -->
                                         <div class="product-price">
                                             $84.00
                                         </div><!-- End .product-price -->
@@ -403,7 +401,7 @@
                             <div class="col-6 col-md-4 col-lg-4 col-xl-3">
                                 <div class="product">
                                     <figure class="product-media">
-                                        <a href="product.html">
+                                        <a href="product-detail.php">
                                             <img src="assets/images/products/product-9.jpg" alt="Product image" class="product-image">
                                         </a>
 
@@ -413,7 +411,7 @@
 
                                         <div class="product-action action-icon-top">
                                             <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
-                                            <a href="popup/quickView.html" class="btn-product btn-quickview" title="Quick view"><span>quick view</span></a>
+                                            <a href="popup/quickView.php" class="btn-product btn-quickview" title="Quick view"><span>quick view</span></a>
                                             <a href="#" class="btn-product btn-compare" title="Compare"><span>compare</span></a>
                                         </div><!-- End .product-action -->
                                     </figure><!-- End .product-media -->
@@ -422,7 +420,7 @@
                                         <div class="product-cat">
                                             <a href="#">Bags</a>
                                         </div><!-- End .product-cat -->
-                                        <h3 class="product-title"><a href="product.html">Orange saddle lock front  chain cross body bag</a></h3><!-- End .product-title -->
+                                        <h3 class="product-title"><a href="product-detail.php">Orange saddle lock front  chain cross body bag</a></h3><!-- End .product-title -->
                                         <div class="product-price">
                                             $52.00
                                         </div><!-- End .product-price -->
@@ -446,7 +444,7 @@
                                 <div class="product">
                                     <figure class="product-media">
                                         <span class="product-label label-new">New</span>
-                                        <a href="product.html">
+                                        <a href="product-detail.php">
                                             <img src="assets/images/products/product-10.jpg" alt="Product image" class="product-image">
                                         </a>
 
@@ -456,7 +454,7 @@
 
                                         <div class="product-action action-icon-top">
                                             <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
-                                            <a href="popup/quickView.html" class="btn-product btn-quickview" title="Quick view"><span>quick view</span></a>
+                                            <a href="popup/quickView.php" class="btn-product btn-quickview" title="Quick view"><span>quick view</span></a>
                                             <a href="#" class="btn-product btn-compare" title="Compare"><span>compare</span></a>
                                         </div><!-- End .product-action -->
                                     </figure><!-- End .product-media -->
@@ -465,7 +463,7 @@
                                         <div class="product-cat">
                                             <a href="#">Jumpers</a>
                                         </div><!-- End .product-cat -->
-                                        <h3 class="product-title"><a href="product.html">Yellow button front tea top</a></h3><!-- End .product-title -->
+                                        <h3 class="product-title"><a href="product-detail.php">Yellow button front tea top</a></h3><!-- End .product-title -->
                                         <div class="product-price">
                                             $56.00
                                         </div><!-- End .product-price -->
@@ -483,7 +481,7 @@
                                 <div class="product">
                                     <figure class="product-media">
                                         <span class="product-label label-top">Top</span>
-                                        <a href="product.html">
+                                        <a href="product-detail.php">
                                             <img src="assets/images/products/product-11.jpg" alt="Product image" class="product-image">
                                         </a>
 
@@ -493,7 +491,7 @@
 
                                         <div class="product-action action-icon-top">
                                             <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
-                                            <a href="popup/quickView.html" class="btn-product btn-quickview" title="Quick view"><span>quick view</span></a>
+                                            <a href="popup/quickView.php" class="btn-product btn-quickview" title="Quick view"><span>quick view</span></a>
                                             <a href="#" class="btn-product btn-compare" title="Compare"><span>compare</span></a>
                                         </div><!-- End .product-action -->
                                     </figure><!-- End .product-media -->
@@ -502,7 +500,7 @@
                                         <div class="product-cat">
                                             <a href="#">Shoes</a>
                                         </div><!-- End .product-cat -->
-                                        <h3 class="product-title"><a href="product.html">Light brown studded Wide fit wedges</a></h3><!-- End .product-title -->
+                                        <h3 class="product-title"><a href="product-detail.php">Light brown studded Wide fit wedges</a></h3><!-- End .product-title -->
                                         <div class="product-price">
                                             $110.00
                                         </div><!-- End .product-price -->
@@ -525,7 +523,7 @@
                             <div class="col-6 col-md-4 col-lg-4 col-xl-3">
                                 <div class="product">
                                     <figure class="product-media">
-                                        <a href="product.html">
+                                        <a href="product-detail.php">
                                             <img src="assets/images/products/product-12.jpg" alt="Product image" class="product-image">
                                         </a>
 
@@ -535,7 +533,7 @@
 
                                         <div class="product-action action-icon-top">
                                             <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
-                                            <a href="popup/quickView.html" class="btn-product btn-quickview" title="Quick view"><span>quick view</span></a>
+                                            <a href="popup/quickView.php" class="btn-product btn-quickview" title="Quick view"><span>quick view</span></a>
                                             <a href="#" class="btn-product btn-compare" title="Compare"><span>compare</span></a>
                                         </div><!-- End .product-action -->
                                     </figure><!-- End .product-media -->
@@ -544,7 +542,7 @@
                                         <div class="product-cat">
                                             <a href="#">Bags</a>
                                         </div><!-- End .product-cat -->
-                                        <h3 class="product-title"><a href="product.html">Black soft RI weekend travel bag</a></h3><!-- End .product-title -->
+                                        <h3 class="product-title"><a href="product-detail.php">Black soft RI weekend travel bag</a></h3><!-- End .product-title -->
                                         <div class="product-price">
                                             $68.00
                                         </div><!-- End .product-price -->
