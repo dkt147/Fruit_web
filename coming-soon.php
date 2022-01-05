@@ -43,11 +43,11 @@
                             <hr class="mt-2 mb-3 mt-md-3">
                             <p>We are currently working on an awesome new site. Stay tuned for more information.
                                 Subscribe to our newsletter to stay updated on our progress.</p>
-                            <form action="#">
+                            <form action="_email.php" method="POST">
                                 <div class="input-group mb-5">
-                                    <input type="email" class="form-control bg-transparent" placeholder="Enter your Email Address" required>
+                                    <input type="email" class="form-control bg-transparent" name="email" placeholder="Enter your Email Address" required>
                                     <div class="input-group-append">
-                                        <button class="btn btn-outline-primary-2" type="submit">
+                                        <button class="btn btn-outline-primary-2" type="submit" name="submit">
                                             <span>SUBSCRIBE</span>
                                             <i class="icon-long-arrow-right"></i>
                                         </button>

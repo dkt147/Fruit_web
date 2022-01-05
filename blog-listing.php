@@ -20,7 +20,7 @@
         <main class="main">
         	<div class="page-header text-center" style="background-image: url('assets/images/page-header-bg.jpg')">
         		<div class="container">
-        			<h1 class="page-title">Blog Listing<span>Blog</span></h1>
+        			<h1 class="page-title">Popular<span>Blog</span></h1>
         		</div><!-- End .container -->
         	</div><!-- End .page-header -->
             <nav aria-label="breadcrumb" class="breadcrumb-nav mb-3">
@@ -313,11 +313,20 @@
                                     <h3 class="widget-title">Categories</h3><!-- End .widget-title -->
 
                                     <ul>
-                                        <li><a href="#">Lifestyle<span>3</span></a></li>
-                                        <li><a href="#">Shopping<span>3</span></a></li>
-                                        <li><a href="#">Fashion<span>1</span></a></li>
-                                        <li><a href="#">Travel<span>3</span></a></li>
-                                        <li><a href="#">Hobbies<span>2</span></a></li>
+                                    <?php
+                            include 'config.php';
+                            $sql = "SELECT * FROM categories";
+                            $result = mysqli_query($con,$sql) or die("Failed");
+
+                            if (mysqli_num_rows($result) > 0) {
+
+                            while (	$output = mysqli_fetch_assoc($result))
+                            {?>
+                                        <li><a href="category.php"><?php echo $output['cat_title']?><span><?php echo $output['cat_id']+4?></span></a></li>
+                                        <?php
+                                        
+                            }
+                        }?>
                                     </ul>
                                 </div><!-- End .widget -->
 

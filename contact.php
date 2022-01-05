@@ -20,7 +20,7 @@
         <main class="main">
         	<div class="page-header text-center" style="background-image: url('assets/images/page-header-bg.jpg')">
         		<div class="container">
-        			<h1 class="page-title">Contact us 2<span>Pages</span></h1>
+        			<h1 class="page-title">Contact us<span>Pages</span></h1>
         		</div><!-- End .container -->
         	</div><!-- End .page-header -->
             <nav aria-label="breadcrumb" class="breadcrumb-nav border-0 mb-0">
@@ -79,32 +79,19 @@
                 			<p class="mb-3">Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
                 			</div><!-- End .text-center -->
 
-                			<form action="#" class="contact-form mb-2">
-                				<div class="row">
-                					<div class="col-sm-4">
-                                        <label for="cname" class="sr-only">Name</label>
-                						<input type="text" class="form-control" id="cname" placeholder="Name *" required>
-                					</div><!-- End .col-sm-4 -->
-
-                					<div class="col-sm-4">
-                                        <label for="cemail" class="sr-only">Name</label>
-                						<input type="email" class="form-control" id="cemail" placeholder="Email *" required>
-                					</div><!-- End .col-sm-4 -->
-
-                					<div class="col-sm-4">
-                                        <label for="cphone" class="sr-only">Phone</label>
-                						<input type="tel" class="form-control" id="cphone" placeholder="Phone">
-                					</div><!-- End .col-sm-4 -->
-                				</div><!-- End .row -->
-
+                			<form action="_contact.php" class="contact-form mb-2" method="POST">
+                				
+									<label for="cemail" class="sr-only">Email</label>
+                						<input type="email" class="form-control" id="cemail" placeholder="Email *" name="email" required>
+                				
                                 <label for="csubject" class="sr-only">Subject</label>
-        						<input type="text" class="form-control" id="csubject" placeholder="Subject">
+        						<input type="text" class="form-control" id="csubject" placeholder="Subject" name="subject">
 
                                 <label for="cmessage" class="sr-only">Message</label>
-                				<textarea class="form-control" cols="30" rows="4" id="cmessage" required placeholder="Message *"></textarea>
+                				<textarea class="form-control" cols="30" rows="4" id="cmessage" required placeholder="Message *" name="message"></textarea>
 								
 								<div class="text-center">
-	                				<button type="submit" class="btn btn-outline-primary-2 btn-minwidth-sm">
+	                				<button type="submit" class="btn btn-outline-primary-2 btn-minwidth-sm" name="submit">
 	                					<span>SUBMIT</span>
 	            						<i class="icon-long-arrow-right"></i>
 	                				</button>

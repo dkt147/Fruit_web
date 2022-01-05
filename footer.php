@@ -121,27 +121,23 @@
 
                     </li>
                     <li>
-                        <a href="category.php">Shop</a>
-                      
-                    </li>
-                   
-                    <li>
-                        <a href="#">Pages</a>
-                      
-                    </li>
-                    <li>
-                        <a href="blog-listing.php">Blog</a>
+                                    <a href="category.php" >Shop</a>
 
-                       
-                            </li>
-                            <li>
-                                <a href="#">Mask</a>
-                              
-                    </li>
-                    <li>
-                        <a href="coming-soon.php">What's new</a>
-                     
-                    </li>
+                                </li>
+                                <li>
+                                    <a href="blog-listing.php" >Blog</a>
+
+                                </li>
+                                
+                                <li>
+                                    <a href="faq.php" >FAQ's</a>
+
+                                </li>
+                                <li>
+                                    <a href="coming-soon.php" >What's New</a>
+
+                                    
+                                </li>
                 </ul>
             </nav><!-- End .mobile-nav -->
 
@@ -175,9 +171,9 @@
                             </ul>
                             <div class="tab-content" id="tab-content-5">
                                 <div class="tab-pane fade show active" id="signin" role="tabpanel" aria-labelledby="signin-tab">
-                                    <form action="#">
+                                    <form action="_login.php" method="POST">
                                         <div class="form-group">
-                                            <label for="singin-email">Username or email address *</label>
+                                            <label for="singin-email">email address *</label>
                                             <input type="text" class="form-control" id="singin-email" name="singin-email" required>
                                         </div><!-- End .form-group -->
 
@@ -187,43 +183,32 @@
                                         </div><!-- End .form-group -->
 
                                         <div class="form-footer">
-                                            <button type="submit" class="btn btn-outline-primary-2">
+                                            <button type="submit" class="btn btn-outline-primary-2" name="login">
                                                 <span>LOG IN</span>
                                                 <i class="icon-long-arrow-right"></i>
                                             </button>
 
-                                            <div class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="signin-remember">
-                                                <label class="custom-control-label" for="signin-remember">Remember Me</label>
-                                            </div><!-- End .custom-checkbox -->
-
-                                            <a href="#" class="forgot-link">Forgot Your Password?</a>
                                         </div><!-- End .form-footer -->
                                     </form>
-                                    <div class="form-choice">
-                                        <p class="text-center">or sign in with</p>
-                                        <div class="row">
-                                            <div class="col-sm-6">
-                                                <a href="#" class="btn btn-login btn-g">
-                                                    <i class="icon-google"></i>
-                                                    Login With Google
-                                                </a>
-                                            </div><!-- End .col-6 -->
-                                            <div class="col-sm-6">
-                                                <a href="#" class="btn btn-login btn-f">
-                                                    <i class="icon-facebook-f"></i>
-                                                    Login With Facebook
-                                                </a>
-                                            </div><!-- End .col-6 -->
-                                        </div><!-- End .row -->
-                                    </div><!-- End .form-choice -->
+                                    
                                 </div><!-- .End .tab-pane -->
                                 <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
-                                    <form action="#">
-                                        <div class="form-group">
+                                    <form action="_signup.php" method="POST">
+                                    <div class="form-group">
+                                            <label for="register-name">Your Full name *</label>
+                                            <input type="text" class="form-control" id="register-name" name="register-name" required>
+                                        </div><!-- End .form-group -->    
+                                    
+                                    <div class="form-group">
                                             <label for="register-email">Your email address *</label>
                                             <input type="email" class="form-control" id="register-email" name="register-email" required>
                                         </div><!-- End .form-group -->
+
+                                        <div class="form-group">
+                                            <label for="register-phone">Your contact *</label>
+                                            <input type="text" class="form-control" id="register-phone" name="register-phone" required>
+                                        </div><!-- End .form-group -->
+
 
                                         <div class="form-group">
                                             <label for="register-password">Password *</label>
@@ -231,7 +216,7 @@
                                         </div><!-- End .form-group -->
 
                                         <div class="form-footer">
-                                            <button type="submit" class="btn btn-outline-primary-2">
+                                            <button type="submit" class="btn btn-outline-primary-2" name="register">
                                                 <span>SIGN UP</span>
                                                 <i class="icon-long-arrow-right"></i>
                                             </button>
@@ -242,23 +227,7 @@
                                             </div><!-- End .custom-checkbox -->
                                         </div><!-- End .form-footer -->
                                     </form>
-                                    <div class="form-choice">
-                                        <p class="text-center">or sign in with</p>
-                                        <div class="row">
-                                            <div class="col-sm-6">
-                                                <a href="#" class="btn btn-login btn-g">
-                                                    <i class="icon-google"></i>
-                                                    Login With Google
-                                                </a>
-                                            </div><!-- End .col-6 -->
-                                            <div class="col-sm-6">
-                                                <a href="#" class="btn btn-login  btn-f">
-                                                    <i class="icon-facebook-f"></i>
-                                                    Login With Facebook
-                                                </a>
-                                            </div><!-- End .col-6 -->
-                                        </div><!-- End .row -->
-                                    </div><!-- End .form-choice -->
+                                 
                                 </div><!-- .End .tab-pane -->
                             </div><!-- End .tab-content -->
                         </div><!-- End .form-tab -->
@@ -277,18 +246,14 @@
                             <img src="assets/images/popup/newsletter/logo.png" class="logo" alt="logo" width="60" height="15">
                             <h2 class="banner-title">get <span>25<light>%</light></span> off</h2>
                             <p>Subscribe to the Molla eCommerce newsletter to receive timely updates from your favorite products.</p>
-                            <form action="#">
+                            <form action="_email.php" method="POST">
                                 <div class="input-group input-group-round">
-                                    <input type="email" class="form-control form-control-white" placeholder="Your Email Address" aria-label="Email Adress" required>
+                                    <input type="email" class="form-control form-control-white" name="email" placeholder="Your Email Address" aria-label="Email Adress" required>
                                     <div class="input-group-append">
                                         <button class="btn" type="submit"><span>go</span></button>
                                     </div><!-- .End .input-group-append -->
                                 </div><!-- .End .input-group -->
                             </form>
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="register-policy-2" required>
-                                <label class="custom-control-label" for="register-policy-2">Do not show this popup again</label>
-                            </div><!-- End .custom-checkbox -->
                         </div>
                     </div>
                     <div class="col-xl-2-5col col-lg-5 ">

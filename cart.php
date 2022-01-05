@@ -1,3 +1,5 @@
+<?php include 'session.php'?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,7 +28,7 @@
             <nav aria-label="breadcrumb" class="breadcrumb-nav">
                 <div class="container">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                         <li class="breadcrumb-item"><a href="#">Shop</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Shopping Cart</li>
                     </ol>
@@ -160,7 +162,7 @@
 	                						</tr><!-- End .summary-shipping-row -->
 
 	                						<tr class="summary-shipping-estimate">
-	                							<td>Estimate for Your Country<br> <a href="dashboard.html">Change address</a></td>
+	                							<td>Estimate for Your Country<br> <a href="dashboard.php">Change address</a></td>
 	                							<td>&nbsp;</td>
 	                						</tr><!-- End .summary-shipping-estimate -->
 
@@ -171,10 +173,10 @@
 	                					</tbody>
 	                				</table><!-- End .table table-summary -->
 
-	                				<a href="checkout.html" class="btn btn-outline-primary-2 btn-order btn-block">PROCEED TO CHECKOUT</a>
+	                				<a href="checkout.php" class="btn btn-outline-primary-2 btn-order btn-block">PROCEED TO CHECKOUT</a>
 	                			</div><!-- End .summary -->
 
-		            			<a href="category.html" class="btn btn-outline-dark-2 btn-block mb-3"><span>CONTINUE SHOPPING</span><i class="icon-refresh"></i></a>
+		            			<a href="category.php" class="btn btn-outline-dark-2 btn-block mb-3"><span>CONTINUE SHOPPING</span><i class="icon-refresh"></i></a>
 	                		</aside><!-- End .col-lg-3 -->
 	                	</div><!-- End .row -->
 	                </div><!-- End .container -->

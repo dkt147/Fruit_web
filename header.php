@@ -32,7 +32,22 @@
                                     <li><a href="wishlist.php"><i class="icon-heart-o"></i>My Wishlist <span>(3)</span></a></li>
                                     <li><a href="about.php">About Us</a></li>
                                     <li><a href="contact.php">Contact Us</a></li>
-                                    <li><a href="#signin-modal" data-toggle="modal"><i class="icon-user"></i>Login</a></li>
+                                    <?php 
+                                    session_start();
+                                    if (isset($_SESSION['email']))
+                                    {?>
+                                    <li><a href="dashboard.php" ><i class="icon-user"></i>
+<?php
+                                    echo $_SESSION['email'];
+                                    }
+                                    else
+                                    {?>
+                                    <li><a href="#signin-modal" data-toggle="modal"><i class="icon-user"></i>
+                                    <?php
+                                     echo "Login";
+                                    }
+                                    ?>
+                                </a></li>
                                 </ul>
                             </li>
                         </ul><!-- End .top-menu -->
@@ -48,7 +63,7 @@
                         </button>
 
                         <a href="index.php" class="logo">
-                            <img src="assets/images/logo.png" alt="Molla Logo" width="105" height="25">
+                            <img src="images/logo.png" alt="Molla Logo" width="105" height="25">
                         </a>
 
                         <nav class="main-nav">

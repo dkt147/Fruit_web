@@ -41,20 +41,9 @@
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                         <li class="breadcrumb-item"><a href="#">Products</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">With Sidebar</li>
                     </ol>
 
-                    <nav class="product-pager ml-auto" aria-label="Product">
-                        <a class="product-pager-link product-pager-prev" href="#" aria-label="Previous" tabindex="-1">
-                            <i class="icon-angle-left"></i>
-                            <span>Prev</span>
-                        </a>
-
-                        <a class="product-pager-link product-pager-next" href="#" aria-label="Next" tabindex="-1">
-                            <span>Next</span>
-                            <i class="icon-angle-right"></i>
-                        </a>
-                    </nav><!-- End .pager-nav -->
+                    
                 </div><!-- End .container -->
             </nav><!-- End .breadcrumb-nav -->
 
@@ -66,9 +55,21 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="product-gallery">
+                                        <?php
+                            include 'config.php';
+                            if(isset($_GET['id'])){
+                                $id = $_GET['id'];
+                            }
+                            $sql = "SELECT * FROM products where product_id=$id";
+                            $result = mysqli_query($con,$sql) or die("Failed");
+
+                            if (mysqli_num_rows($result) > 0) {
+
+                            while (	$output = mysqli_fetch_assoc($result))
+                            {?>
                                             <figure class="product-main-image">
                                                 <span class="product-label label-top">Top</span>
-                                                <img id="product-zoom" src="assets/images/products/single/sidebar-gallery/1.jpg" data-zoom-image="assets/images/products/single/sidebar-gallery/1-big.jpg" alt="product image">
+                                                <img id="product-zoom" src="<?php echo "admin_area/product_images/".$output['product_img1']?>" data-zoom-image="<?php echo "admin_area/product_images/".$output['product_img1']?>" alt="product image">
 
                                                 <a href="#" id="btn-product-gallery" class="btn-product-gallery">
                                                     <i class="icon-arrows"></i>
@@ -76,28 +77,26 @@
                                             </figure><!-- End .product-main-image -->
 
                                             <div id="product-zoom-gallery" class="product-image-gallery">
-                                                <a class="product-gallery-item active" href="#" data-image="assets/images/products/single/sidebar-gallery/1.jpg" data-zoom-image="assets/images/products/single/sidebar-gallery/1-big.jpg">
-                                                    <img src="assets/images/products/single/sidebar-gallery/1-small.jpg" alt="product side">
+                                                <a class="product-gallery-item active" href="#" data-image="<?php echo "admin_area/product_images/".$output['product_img1']?>" data-zoom-image="<?php echo "admin_area/product_images/".$output['product_img1']?>">
+                                                    <img src="<?php echo "admin_area/product_images/".$output['product_img1']?>" alt="product side">
                                                 </a>
 
-                                                <a class="product-gallery-item" href="#" data-image="assets/images/products/single/sidebar-gallery/2.jpg" data-zoom-image="assets/images/products/single/sidebar-gallery/2-big.jpg">
-                                                    <img src="assets/images/products/single/sidebar-gallery/2-small.jpg" alt="product cross">
+                                                <a class="product-gallery-item" href="#" data-image="<?php echo "admin_area/product_images/".$output['product_img2']?>" data-zoom-image="<?php echo "admin_area/product_images/".$output['product_img2']?>">
+                                                    <img src="<?php echo "admin_area/product_images/".$output['product_img2']?>" alt="product cross">
                                                 </a>
 
-                                                <a class="product-gallery-item" href="#" data-image="assets/images/products/single/sidebar-gallery/3.jpg" data-zoom-image="assets/images/products/single/sidebar-gallery/3-big.jpg">
-                                                    <img src="assets/images/products/single/sidebar-gallery/3-small.jpg" alt="product with model">
-                                                </a>
-
-                                                <a class="product-gallery-item" href="#" data-image="assets/images/products/single/sidebar-gallery/4.jpg" data-zoom-image="assets/images/products/single/sidebar-gallery/4-big.jpg">
-                                                    <img src="assets/images/products/single/sidebar-gallery/4-small.jpg" alt="product back">
+                                                <a class="product-gallery-item" href="#" data-image="<?php echo "admin_area/product_images/".$output['product_img3']?>" data-zoom-image="<?php echo "admin_area/product_images/".$output['product_img3']?>">
+                                                    <img src="<?php echo "admin_area/product_images/".$output['product_img3']?>" alt="product with model">
                                                 </a>
                                             </div><!-- End .product-image-gallery -->
+
+                            
                                         </div><!-- End .product-gallery -->
                                     </div><!-- End .col-md-6 -->
 
                                     <div class="col-md-6">
                                         <div class="product-details product-details-sidebar">
-                                            <h1 class="product-title">Black faux leather chain trim sandals</h1><!-- End .product-title -->
+                                            <h1 class="product-title"><?php echo $output['product_title']?></h1><!-- End .product-title -->
 
                                             <div class="ratings-container">
                                                 <div class="ratings">
@@ -107,36 +106,16 @@
                                             </div><!-- End .rating-container -->
 
                                             <div class="product-price">
-                                                $90.00
+                                                $<?php echo $output['product_price']?>
                                             </div><!-- End .product-price -->
 
                                             <div class="product-content">
                                                 <p>Sed egestas, ante et vulputate volutpat, eros semper est, vitae luctus metus libero eu augue.</p>
                                             </div><!-- End .product-content -->
 
-                                            <div class="details-filter-row details-row-size">
-                                                <label>Color:</label>
+                                           
 
-                                                <div class="product-nav product-nav-dots">
-                                                    <a href="#" class="active" style="background: #333333;"><span class="sr-only">Color name</span></a>
-                                                    <a href="#" style="background: #efe7db;"><span class="sr-only">Color name</span></a>
-                                                </div><!-- End .product-nav -->
-                                            </div><!-- End .details-filter-row -->
-
-                                            <div class="details-filter-row details-row-size">
-                                                <label for="size">Size:</label>
-                                                <div class="select-custom">
-                                                    <select name="size" id="size" class="form-control">
-                                                        <option value="#" selected="selected">Select a size</option>
-                                                        <option value="s">Small</option>
-                                                        <option value="m">Medium</option>
-                                                        <option value="l">Large</option>
-                                                        <option value="xl">Extra Large</option>
-                                                    </select>
-                                                </div><!-- End .select-custom -->
-
-                                                <a href="#" class="size-guide"><i class="icon-th-list"></i>size guide</a>
-                                            </div><!-- End .details-filter-row -->
+                                           
 
                                             <div class="product-details-action">
                                                 <div class="details-action-col">
@@ -149,17 +128,17 @@
                                                 </div><!-- End .details-action-col -->
 
                                                 <div class="details-action-wrapper">
-                                                    <a href="#" class="btn-product btn-wishlist" title="Wishlist"><span>Add to Wishlist</span></a>
-                                                    <a href="#" class="btn-product btn-compare" title="Compare"><span>Add to Compare</span></a>
+                                                    <a type="submit" href="_wishlist.php" class="btn-product btn-wishlist" title="Wishlist"><span>Add to Wishlist</span></a>
+                                                   
                                                 </div><!-- End .details-action-wrapper -->
                                             </div><!-- End .product-details-action -->
 
                                             <div class="product-details-footer details-footer-col">
                                                 <div class="product-cat">
                                                     <span>Category:</span>
-                                                    <a href="#">Women</a>,
-                                                    <a href="#">Dresses</a>,
-                                                    <a href="#">Yellow</a>
+                                                    <a href="#">Fresh</a>,
+                                                    <a href="#">Hot</a>,
+                                                    <a href="#">Top</a>
                                                 </div><!-- End .product-cat -->
 
                                                 <div class="social-icons social-icons-sm">
@@ -288,7 +267,10 @@
                                     </div><!-- .End .tab-pane -->
                                 </div><!-- End .tab-content -->
                             </div><!-- End .product-details-tab -->
-
+                            <?php
+                            }
+                        }
+                        ?>
                             <h2 class="title text-center mb-4">You May Also Like</h2><!-- End .title text-center -->
                             <div class="owl-carousel owl-simple carousel-equal-height carousel-with-shadow" data-toggle="owl" 
                                 data-owl-options='{
