@@ -173,7 +173,7 @@
                                 <div class="tab-pane fade show active" id="signin" role="tabpanel" aria-labelledby="signin-tab">
                                     <form action="_login.php" method="POST">
                                         <div class="form-group">
-                                            <label for="singin-email">email address *</label>
+                                            <label for="singin-email">Email address *</label>
                                             <input type="text" class="form-control" id="singin-email" name="singin-email" required>
                                         </div><!-- End .form-group -->
 

@@ -56,7 +56,18 @@
         				
                         <div class="toolbox-center">
                             <div class="toolbox-info">
-                                Showing <span>12 of 56</span> Products
+
+                            <?php
+                             include 'config.php';
+                            $sql = "SELECT * FROM products";
+                            $result = mysqli_query($con,$sql) or die("Failed");
+                            	$output = mysqli_fetch_assoc($result);
+                                $total = mysqli_num_rows($result);
+                                $showing = mysqli_num_rows($result); 
+                                ?>
+                                Showing <span><?php echo $showing?> of <?php echo $total?></span> Products
+
+
                             </div><!-- End .toolbox-info -->
                         </div><!-- End .toolbox-center -->
 

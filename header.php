@@ -28,7 +28,7 @@
                         <ul class="top-menu">
                             <li>
                                 <ul>
-                                    <li><a href="tel:#"><i class="icon-phone"></i>Call: +92 317 2746242</a></li>
+                                    <li><a href="https://api.whatsapp.com/send?phone=+923172746242"><i class="icon-phone"></i>Call: +92 317 2746242</a></li>
                                     <li><a href="wishlist.php"><i class="icon-heart-o"></i>My Wishlist <span>(3)</span></a></li>
                                     <li><a href="about.php">About Us</a></li>
                                     <li><a href="contact.php">Contact Us</a></li>

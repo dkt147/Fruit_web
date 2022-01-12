@@ -279,22 +279,7 @@
                             </article><!-- End .entry -->
 
 
-                			<nav aria-label="Page navigation">
-							    <ul class="pagination">
-							        <li class="page-item disabled">
-							            <a class="page-link page-link-prev" href="#" aria-label="Previous" tabindex="-1" aria-disabled="true">
-							                <span aria-hidden="true"><i class="icon-long-arrow-left"></i></span>Prev
-							            </a>
-							        </li>
-							        <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
-							        <li class="page-item"><a class="page-link" href="#">2</a></li>
-							        <li class="page-item">
-							            <a class="page-link page-link-next" href="#" aria-label="Next">
-							                Next <span aria-hidden="true"><i class="icon-long-arrow-right"></i></span>
-							            </a>
-							        </li>
-							    </ul>
-							</nav>
+                			
                 		</div><!-- End .col-lg-9 -->
 
                 		<aside class="col-lg-3">
@@ -330,61 +315,7 @@
                                     </ul>
                                 </div><!-- End .widget -->
 
-                                <div class="widget">
-                                    <h3 class="widget-title">Popular Posts</h3><!-- End .widget-title -->
-
-                                    <ul class="posts-list">
-                                        <li>
-                                            <figure>
-                                                <a href="#">
-                                                    <img src="assets/images/blog/sidebar/post-1.jpg" alt="post">
-                                                </a>
-                                            </figure>
-
-                                            <div>
-                                                <span>Nov 22, 2018</span>
-                                                <h4><a href="#">Aliquam tincidunt mauris eurisus.</a></h4>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <figure>
-                                                <a href="#">
-                                                    <img src="assets/images/blog/sidebar/post-2.jpg" alt="post">
-                                                </a>
-                                            </figure>
-
-                                            <div>
-                                                <span>Nov 19, 2018</span>
-                                                <h4><a href="#">Cras ornare tristique elit.</a></h4>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <figure>
-                                                <a href="#">
-                                                    <img src="assets/images/blog/sidebar/post-3.jpg" alt="post">
-                                                </a>
-                                            </figure>
-
-                                            <div>
-                                                <span>Nov 12, 2018</span>
-                                                <h4><a href="#">Vivamus vestibulum ntulla nec ante.</a></h4>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <figure>
-                                                <a href="#">
-                                                    <img src="assets/images/blog/sidebar/post-4.jpg" alt="post">
-                                                </a>
-                                            </figure>
-
-                                            <div>
-                                                <span>Nov 25, 2018</span>
-                                                <h4><a href="#">Donec quis dui at dolor  tempor interdum.</a></h4>
-                                            </div>
-                                        </li>
-                                    </ul><!-- End .posts-list -->
-                                </div><!-- End .widget -->
-
+                                
                                 <div class="widget widget-banner-sidebar">
                                     <div class="banner-sidebar-title">ad box 280 x 280</div><!-- End .ad-title -->
                                     
@@ -399,13 +330,21 @@
                                     <h3 class="widget-title">Browse Tags</h3><!-- End .widget-title -->
 
                                     <div class="tagcloud">
-                                        <a href="#">fashion</a>
-                                        <a href="#">style</a>
-                                        <a href="#">women</a>
-                                        <a href="#">photography</a>
-                                        <a href="#">travel</a>
-                                        <a href="#">shopping</a>
-                                        <a href="#">hobbies</a>
+                                    <?php
+                            include 'config.php';
+                            $sql = "SELECT * FROM categories";
+                            $result = mysqli_query($con,$sql) or die("Failed");
+
+                            if (mysqli_num_rows($result) > 0) {
+
+                            while (	$output = mysqli_fetch_assoc($result))
+                            {?>
+                                        <a href="category.php"><?php echo $output['cat_title']?></a>
+
+                                        <?php
+                                        
+                                    }
+                                }?>
                                     </div><!-- End .tagcloud -->
                                 </div><!-- End .widget -->
 

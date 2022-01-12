@@ -17,9 +17,10 @@ $pass      = $_POST['singin-password'];
 
 
     if(mysqli_num_rows($resultant)>0){
-
+      $output = mysqli_fetch_assoc($resultant);
       Session_start();
       echo $_SESSION['email'] = $email;
+      echo $_SESSION['id'] = $output['customer_id'];
      header("Location:index.php");
       //echo "<script>alert('$email')</script>";	
     }
