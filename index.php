@@ -428,15 +428,18 @@
 <br><br>
 <br><br>
             <div class="container categories pt-6">
-        		<h2 class="title-lg text-center mb-4" style="font-family:Serif">FRUIT IN THE OFFICE<br>Eating Fruit is Good for you and has Plenty of Health Benefits</h2><!-- End .title-lg text-center -->
+        		<h2 class="title-lg text-center mb-4" style="font-family:Serif">GIFTS  BASKETS FOR SPECIAL EVENTS</h2><!-- End .title-lg text-center -->
                
-                <h4 class="title-md text-center mb-4" style="color: darkgrey;font-family:Serif"><b>    Keep your hard-working team healthy and motivated by giving them farm fresh fruit every week.</b></h4>
+                <h4 class="title-md text-center mb-4" style="color: darkgrey;font-family:Serif"><b>    How exactly do we deliver fruit baskets, we hear you ask. Well, setting up your office fruit basket delivery is easy. Simply choose between the Essential or the Seasonal basket (or add both if you like). Then select which days you’d like deliveries and we’ll create your account.</b></h4>
                 
-                <h4 class="title-md text-center mb-4" style="color: grey;padding-left:100px;padding-right:100px;">  We can create a custom program for you that combines office fruit delivery with take-home boxes for essential employees’ families and boxes delivered to remote workers on your behalf. Bring cohesion and unity through the shared weekly experience of healthy fruit.</h4>
-                <h4 class="title-md text-center mb-4" style="color: grey;padding-left:100px;padding-right:100px;">  Eating fruits  is one of the healthiest eating habits that we can include in our day to day. They help us maintain the proper weight, since they are very low in calories , and they provide us with  essential vitamins and minerals for our body, helping us to lead a healthier life.</h4>
-                <h4 class="title-md text-center mb-4" style="color: grey;padding-left:100px;padding-right:100px;">  Consuming fruit in the workplace not only helps to improve the health of employees , it is also a way to save on your lunch or daily meal and promote 
- 
- social relationships, well-being and motivation.
+                <h2 class="title-lg text-center mb-4" style="font-family:Serif">Our fruit baskets are perfect for gifts and special events</h2><!-- End .title-lg text-center -->
+               
+               <h4 class="title-md text-center mb-4" style="color: darkgrey;font-family:Serif"><b>   You can buy fruit basket online for different events including birthday events, weddings, and commemorations among others on the off chance that you need to include a customary yet satisfying touch to your presents and amazements. We are also offering custom fruit baskets with Toys, Dry Fruits, Indian Sweets, and Chocolates.</b></h4>
+             
+               <h2 class="title-lg text-center mb-4" style="font-family:Serif">We are Online stores of Special spices<br><br>
+Looking to buy Indian spices, masala & herbs online in MADRID, SPAIN  and get it delivered to your home? Choose from a wide range of whole or ground spices like chilli powder, ajwain powder, jeera / cummin seeds, alsi seeds, amchur powder, pomegranate powder, garam masala, triphala, bay leaves, dhania powder, sambar masala, mustard powder, tandoori masala and all the other Indian spices to help you with your everyday Indian cooking or making those special Indian meals.
+TS</h2><!-- End .title-lg text-center -->
+               
  </h4>
                <br><div class="row">
 
@@ -476,133 +479,73 @@
         		
         		</div><!-- End .row -->
     		</div><!-- End .container -->
+
+<br><br>
+<div class="container categories pt-6">
+        		<h2 class="title-lg text-center mb-4" style="font-family:Serif">WHY US OR BENEFITS DAILYNEEDS.ES ?</h2><!-- End .title-lg text-center -->
+               
+                <h4 class="title-md text-center mb-4" style="color: darkgrey;font-family:Serif"><b>   We support local growers<br>
+Our produce is delivered fresh to us daily<br>
+Boxes of goodness<br>
+Best Quality with competitive price <br>
+You can customize your box<br>
+You’ll receive a dedicated account manager for your Office-<br>
+Delivery to the door<br>
+</b></h4>
+               <br>
+               
+               
+               <div class="row">
+
+
+
+               <?php /*
+                            include 'config.php';
+                            $sql = "SELECT * FROM categories";
+                            $result = mysqli_query($con,$sql) or die("Failed");
+
+                            if (mysqli_num_rows($result) > 0) {
+
+                            while (	$output = mysqli_fetch_assoc($result))
+                            {*/?>
+                            <div class="col-4"></div>
+        			<div class="col-4 col-lg-4">
+        				<div class="banner banner-display banner-link-anim">
+                			<a href="#">
+                				<img src="images/8.jpg" alt="Banner">
+                			</a>
+
+                			<div class="banner-content banner-content-center">
+                				<h3 class="banner-title text-white"><a href="#"><?php echo $output['cat_title']?></a></h3><!-- End .banner-title -->
+                				<a href="category.php" class="btn btn-outline-white banner-link">Shop Now<i class="icon-long-arrow-right"></i></a>
+                			</div><!-- End .banner-content -->
+            			</div><!-- End .banner -->
+        			</div><!-- End .col-sm-6 col-lg-3 -->
+                    <div class="col-4"></div>
+
+                   
+
+<?php
+
+// }}
+?>
+
+        		
+        		</div><!-- End .row -->
+    		</div><!-- End .container -->
+
             <div class="mb-5"></div><!-- End .mb-6 -->
 
             
-          <?php include 'recent.php' ?>
+          <?php // include 'recent.php' ?>
 
             <div class="container">
                 <hr>
-            	<div class="row justify-content-center">
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="icon-box icon-box-card text-center">
-                            <span class="icon-box-icon">
-                                <i class="icon-rocket"></i>
-                            </span>
-                            <div class="icon-box-content">
-                                <h3 class="icon-box-title">Payment & Delivery</h3><!-- End .icon-box-title -->
-                                <p>Free shipping for orders over $50</p>
-                            </div><!-- End .icon-box-content -->
-                        </div><!-- End .icon-box -->
-                    </div><!-- End .col-lg-4 col-sm-6 -->
-
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="icon-box icon-box-card text-center">
-                            <span class="icon-box-icon">
-                                <i class="icon-rotate-left"></i>
-                            </span>
-                            <div class="icon-box-content">
-                                <h3 class="icon-box-title">Return & Refund</h3><!-- End .icon-box-title -->
-                                <p>Free 100% money back guarantee</p>
-                            </div><!-- End .icon-box-content -->
-                        </div><!-- End .icon-box -->
-                    </div><!-- End .col-lg-4 col-sm-6 -->
-
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="icon-box icon-box-card text-center">
-                            <span class="icon-box-icon">
-                                <i class="icon-life-ring"></i>
-                            </span>
-                            <div class="icon-box-content">
-                                <h3 class="icon-box-title">Quality Support</h3><!-- End .icon-box-title -->
-                                <p>Alway online feedback 24/7</p>
-                            </div><!-- End .icon-box-content -->
-                        </div><!-- End .icon-box -->
-                    </div><!-- End .col-lg-4 col-sm-6 -->
-                </div><!-- End .row -->
+            
 
                 <div class="mb-2"></div><!-- End .mb-2 -->
             </div><!-- End .container -->
-            <div class="blog-posts pt-7 pb-7" style="background-color: #fafafa;">
-                <div class="container">
-                   <h2 class="title-lg text-center mb-3 mb-md-4">From Our Blog</h2><!-- End .title-lg text-center -->
-
-                  
-                        <article class="entry entry-display">
-                            <figure class="entry-media">
-                                <a href="blog-listing.php">
-                                    <img src="images/1.jpg" alt="image desc">
-                                </a>
-                            </figure><!-- End .entry-media -->
-
-                            <div class="entry-body pb-4 text-center">
-                                <div class="entry-meta">
-                                    <a href="#">Nov 22, 2018</a>, 0 Comments
-                                </div><!-- End .entry-meta -->
-
-                                <h3 class="entry-title">
-                                    <a href="blog-listing.php">Sed adipiscing ornare.</a>
-                                </h3><!-- End .entry-title -->
-
-                                <div class="entry-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit.<br>Pelletesque aliquet nibh necurna. </p>
-                                    <a href="blog-listing.php" class="read-more">Read More</a>
-                                </div><!-- End .entry-content -->
-                            </div><!-- End .entry-body -->
-                        </article><!-- End .entry -->
-
-                        <article class="entry entry-display">
-                            <figure class="entry-media">
-                                <a href="blog-listing.php">
-                                    <img src="images/2.jpg" alt="image desc">
-                                </a>
-                            </figure><!-- End .entry-media -->
-
-                            <div class="entry-body pb-4 text-center">
-                                <div class="entry-meta">
-                                    <a href="#">Dec 12, 2018</a>, 0 Comments
-                                </div><!-- End .entry-meta -->
-
-                                <h3 class="entry-title">
-                                    <a href="blog-listing.php">Fusce lacinia arcuet nulla.</a>
-                                </h3><!-- End .entry-title -->
-
-                                <div class="entry-content">
-                                    <p>Sed pretium, ligula sollicitudin laoreet<br>viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis justo. </p>
-                                    <a href="blog-listing.php" class="read-more">Read More</a>
-                                </div><!-- End .entry-content -->
-                            </div><!-- End .entry-body -->
-                        </article><!-- End .entry -->
-
-                        <article class="entry entry-display">
-                            <figure class="entry-media">
-                                <a href="blog-listing.php">
-                                    <img src="images/7.jpg" alt="image desc">
-                                </a>
-                            </figure><!-- End .entry-media -->
-
-                            <div class="entry-body pb-4 text-center">
-                                <div class="entry-meta">
-                                    <a href="#">Dec 19, 2018</a>, 2 Comments
-                                </div><!-- End .entry-meta -->
-
-                                <h3 class="entry-title">
-                                    <a href="blog-listing.php">Quisque volutpat mattis eros.</a>
-                                </h3><!-- End .entry-title -->
-
-                                <div class="entry-content">
-                                    <p>Suspendisse potenti. Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. </p>
-                                    <a href="blog-listing.php" class="read-more">Read More</a>
-                                </div><!-- End .entry-content -->
-                            </div><!-- End .entry-body -->
-                        </article><!-- End .entry -->
-                    </div><!-- End .owl-carousel -->
-                </div><!-- container -->
-
-                <div class="more-container text-center mb-0 mt-3">
-                    <a href="blog-listing.php" class="btn btn-outline-darker btn-more"><span>View more articles</span><i class="icon-long-arrow-right"></i></a>
-                </div><!-- End .more-container -->
-            </div>
+           
             <div class="cta cta-display bg-image pt-4 pb-4" style="background-image: url(images/5.jpg);">
                 <div class="container">
                     <div class="row justify-content-center">

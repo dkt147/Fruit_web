@@ -102,9 +102,12 @@
 
                                     <div class="product-body">
                                         <div class="product-cat">
-                                            <a href="#"><?php echo $output['p_cat_id']?></a>
+                                            <a href="#"><?php echo "Variety: ".$output['product_url']?></a>
                                         </div><!-- End .product-cat -->
-                                        <h3 class="product-title"><a href="product-detail.php?id=<?php echo $output['product_id']?>"><?php echo $output['product_title']?></a></h3><!-- End .product-title -->
+                                        <h3 class="product-title"><a href="product-detail.php?id=<?php echo $output['product_id']?>"><?php echo "Name: ".$output['product_title']?></a></h3><!-- End .product-title -->
+                                        <div class="">
+                                            <?php echo "Product Code:   ".$output['product_keywords']?>
+                                        </div><!-- End .product-price -->
                                         <div class="product-price">
                                             $<?php echo $output['product_price']?>
                                         </div><!-- End .product-price -->
@@ -115,10 +118,7 @@
                                             <span class="ratings-text">( <?php echo $output['product_id']+4?> Reviews )</span>
                                         </div><!-- End .rating-container -->
 
-                                        <div class="product-nav product-nav-dots">
-                                            <a href="#" style="background: #cc9966;"><span class="sr-only">Color name</span></a>
-                                            <a href="#" class="active" style="background: #ebebeb;"><span class="sr-only">Color name</span></a>
-                                        </div><!-- End .product-nav -->
+                                      
                                     </div><!-- End .product-body -->
                                 </div><!-- End .product -->
                             </div><!-- End .col-sm-6 col-lg-4 col-xl-3 -->

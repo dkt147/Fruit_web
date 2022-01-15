@@ -20,7 +20,7 @@
         <main class="main">
         	<div class="page-header text-center" style="background-image: url('assets/images/page-header-bg.jpg')">
         		<div class="container">
-        			<h1 class="page-title">Popular<span>Blog</span></h1>
+        			<h1 class="page-title">Fresh Fruits<span>Blog</span></h1>
         		</div><!-- End .container -->
         	</div><!-- End .page-header -->
             <nav aria-label="breadcrumb" class="breadcrumb-nav mb-3">
@@ -40,8 +40,8 @@
                                 <div class="row align-items-center">
                                     <div class="col-md-5">
                                         <figure class="entry-media">
-                                            <a href="product-detail.php">
-                                                <img src="assets/images/blog/listing/post-1.jpg" alt="image desc">
+                                            <a href="#">
+                                                <img src="images/5.jpg" alt="image desc">
                                             </a>
                                         </figure><!-- End .entry-media -->
                                     </div><!-- End .col-md-5 -->
@@ -59,17 +59,17 @@
                                             </div><!-- End .entry-meta -->
 
                                             <h2 class="entry-title">
-                                                <a href="product-detail.php">Cras ornare tristique elit.</a>
+                                                <a href="product-detail.php">Good Fruit Grower | The essential resource for growers</a>
                                             </h2><!-- End .entry-title -->
 
                                             <div class="entry-cats">
-                                                in <a href="#">Lifestyle</a>,
-                                                <a href="#">Shopping</a>
+                                                in <a href="#">Health</a>,
+                                                <a href="#">Fruits</a>
                                             </div><!-- End .entry-cats -->
 
                                             <div class="entry-content">
-                                                <p>Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti. Sed egestas ... </p>
-                                                <a href="product-detail.php" class="read-more">Continue Reading</a>
+                                                <p>Good Fruit Grower is the essential resource for the tree fruit and grape growing industry. It covers the growing, packing, handling, marketing, and promotion of tree fruits (apples, pears, cherries, apricots, peaches, nectarines, and plums), as well as juice and wine grape production. </p>
+                                                
                                             </div><!-- End .entry-content -->
                                         </div><!-- End .entry-body -->
                                     </div><!-- End .col-md-7 -->
@@ -80,8 +80,8 @@
                                 <div class="row align-items-center">
                                     <div class="col-md-5">
                                         <figure class="entry-media entry-video">
-                                            <a href="product-detail.php">
-                                                <img src="assets/images/blog/listing/post-2.jpg" alt="image desc">
+                                            <a href="#">
+                                                <img src="images/2.jpg" alt="image desc">
                                             </a>
                                         </figure><!-- End .entry-media -->
                                     </div><!-- End .col-md-5 -->
@@ -90,7 +90,7 @@
                                         <div class="entry-body">
                                             <div class="entry-meta">
                                                 <span class="entry-author">
-                                                    by <a href="#">John Doe</a>
+                                                    by <a href="#"> Florida, US</a>
                                                 </span>
                                                 <span class="meta-separator">|</span>
                                                 <a href="#">Nov 20, 2018</a>
@@ -99,16 +99,16 @@
                                             </div><!-- End .entry-meta -->
 
                                             <h2 class="entry-title">
-                                                <a href="product-detail.php">Facilisis aliquam porttitor mauris sit  amet orci.</a>
+                                                <a href="product-detail.php"> Feasting on Fruit | Snacking Made Sweeter With Fruit</a>
                                             </h2><!-- End .entry-title -->
 
                                             <div class="entry-cats">
-                                                in <a href="#">Lifestyle</a>
+                                                in <a href="#">Health</a>
                                             </div><!-- End .entry-cats -->
 
                                             <div class="entry-content">
-                                                <p>Morbi purus libero, faucibus commodo quis, gravida id, est. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui ... </p>
-                                                <a href="product-detail.php" class="read-more">Continue Reading</a>
+                                                <p>Feasting on Fruit sharing simple snacks and treats that are secretly healthy under their dessert disguises! Snacking made sweeter with fruit. Vegan, gluten-free, grain-free, and healthy recipes and inspiration for anyone with a sweet tooth!</p>
+                                               
                                             </div><!-- End .entry-content -->
                                         </div><!-- End .entry-body -->
                                     </div><!-- End .col-md-7 -->
@@ -121,11 +121,9 @@
                                         <figure class="entry-media">
                                             <div class="owl-carousel owl-simple owl-light owl-nav-inside" data-toggle="owl">
                                                 <a href="product-detail.php">
-                                                    <img src="assets/images/blog/listing/post-3.jpg" alt="image desc">
+                                                    <img src="images/4.jpg" alt="image desc">
                                                 </a>
-                                                <a href="product-detail.php">
-                                                    <img src="assets/images/blog/listing/post-1.jpg" alt="image desc">
-                                                </a>
+                                               
                                             </div><!-- End .owl-carousel -->
                                         </figure><!-- End .entry-media -->
                                     </div><!-- End .col-md-5 -->
@@ -143,29 +141,30 @@
                                             </div><!-- End .entry-meta -->
 
                                             <h2 class="entry-title">
-                                                <a href="product-detail.php">Utaliquam sollicitudin leo.</a>
+                                                <a href="product-detail.php"> Tropical Fruit Forum - International Tropical Fruit Growers</a>
                                             </h2><!-- End .entry-title -->
 
                                             <div class="entry-cats">
-                                                in <a href="#">Lifestyle</a>,
-                                                <a href="#">Shopping</a>
+                                                in <a href="#">Health</a>,
+                                                <a href="#">Calories</a>
                                             </div><!-- End .entry-cats -->
 
                                             <div class="entry-content">
-                                                <p>Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti. Sed egestas ... </p>
-                                                <a href="product-detail.php" class="read-more">Continue Reading</a>
+                                                <p>Tropical Fruit Forum offers access to not only a wide variety of fruit trees and seeds but also a very broad knowledge base of every kind of exotic fruit plant you can imagine. It brings you in touch with the person you need. This is an invaluable resource for anyone interested in learning about tropical fruit and how to grow them. </p>
+                                               
                                             </div><!-- End .entry-content -->
                                         </div><!-- End .entry-body -->
                                     </div><!-- End .col-md-7 -->
                                 </div><!-- End .row -->
                             </article><!-- End .entry -->
 
+                            
                             <article class="entry entry-list">
                                 <div class="row align-items-center">
                                     <div class="col-md-5">
                                         <figure class="entry-media">
                                             <a href="product-detail.php">
-                                                <img src="assets/images/blog/listing/post-4.jpg" alt="image desc">
+                                                <img src="images/1.jpg" alt="image desc">
                                             </a>
                                         </figure><!-- End .entry-media -->
                                     </div><!-- End .col-md-5 -->
@@ -174,46 +173,7 @@
                                         <div class="entry-body">
                                             <div class="entry-meta">
                                                 <span class="entry-author">
-                                                    by <a href="#">Jane Doe</a>
-                                                </span>
-                                                <span class="meta-separator">|</span>
-                                                <a href="#">Nov 12, 2018</a>
-                                                <span class="meta-separator">|</span>
-                                                <a href="#">4 Comments</a>
-                                            </div><!-- End .entry-meta -->
-
-                                            <h2 class="entry-title">
-                                                <a href="product-detail.php">Fusce pellentesque suscipit.</a>
-                                            </h2><!-- End .entry-title -->
-
-                                            <div class="entry-cats">
-                                                in <a href="#">Travel</a>
-                                            </div><!-- End .entry-cats -->
-
-                                            <div class="entry-content">
-                                                <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Aliquam erat volutpat eget felis ... </p>
-                                                <a href="product-detail.php" class="read-more">Continue Reading</a>
-                                            </div><!-- End .entry-content -->
-                                        </div><!-- End .entry-body -->
-                                    </div><!-- End .col-md-7 -->
-                                </div><!-- End .row -->
-                            </article><!-- End .entry -->
-
-                            <article class="entry entry-list">
-                                <div class="row align-items-center">
-                                    <div class="col-md-5">
-                                        <figure class="entry-media">
-                                            <a href="product-detail.php">
-                                                <img src="assets/images/blog/listing/post-5.jpg" alt="image desc">
-                                            </a>
-                                        </figure><!-- End .entry-media -->
-                                    </div><!-- End .col-md-5 -->
-
-                                    <div class="col-md-7">
-                                        <div class="entry-body">
-                                            <div class="entry-meta">
-                                                <span class="entry-author">
-                                                    by <a href="#">John Doe</a>
+                                                    by <a href="#"> Rochester, New York, US</a>
                                                 </span>
                                                 <span class="meta-separator">|</span>
                                                 <a href="#">Nov 11, 2018</a>
@@ -222,16 +182,15 @@
                                             </div><!-- End .entry-meta -->
 
                                             <h2 class="entry-title">
-                                                <a href="product-detail.php">Donec nec justo eget felis facilisis  fermentum.</a>
+                                                <a href="product-detail.php">Brothers All Natural Blog | Freeze Dried Fruit Recipes and Healthy Lifestyle Tips</a>
                                             </h2><!-- End .entry-title -->
 
                                             <div class="entry-cats">
-                                                in <a href="#">Hobbies</a>
+                                                in <a href="#">Fats</a>
                                             </div><!-- End .entry-cats -->
 
                                             <div class="entry-content">
-                                                <p>Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus. Phasellus ultrices nulla quis nibh. Quisque lectus. Donec consectetuer ligula vulputate sem ...</p>
-                                                <a href="product-detail.php" class="read-more">Continue Reading</a>
+                                                <p>Brothers-All-Natural is America's favorite brand of freeze dried fruit crisps. Healthy snacking, freeze dried fruit recipes & more!</p>
                                             </div><!-- End .entry-content -->
                                         </div><!-- End .entry-body -->
                                     </div><!-- End .col-md-7 -->
@@ -243,7 +202,7 @@
                                     <div class="col-md-5">
                                         <figure class="entry-media">
                                             <a href="product-detail.php">
-                                                <img src="assets/images/blog/listing/post-6.jpg" alt="image desc">
+                                                <img src="images/6.jpg" alt="image desc">
                                             </a>
                                         </figure><!-- End .entry-media -->
                                     </div><!-- End .col-md-5 -->
@@ -252,7 +211,7 @@
                                         <div class="entry-body">
                                             <div class="entry-meta">
                                                 <span class="entry-author">
-                                                    by <a href="#">Hans Doe</a>
+                                                    by <a href="#">Saint Petersburg, Florida, US</a>
                                                 </span>
                                                 <span class="meta-separator">|</span>
                                                 <a href="#">Nov 10, 2018</a>
@@ -261,7 +220,7 @@
                                             </div><!-- End .entry-meta -->
 
                                             <h2 class="entry-title">
-                                                <a href="product-detail.php">Quisque volutpat mattiseros.</a>
+                                                <a href="product-detail.php"> Florida Fruit Shippers</a>
                                             </h2><!-- End .entry-title -->
 
                                             <div class="entry-cats">
@@ -270,8 +229,7 @@
                                             </div><!-- End .entry-cats -->
 
                                             <div class="entry-content">
-                                                <p>Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus. Phasellus ultrices nulla quis nibh. Quisque lectus. Donec consectetuer ...</p>
-                                                <a href="product-detail.php" class="read-more">Continue Reading</a>
+                                                <p>A blog about oranges, tangerines, grapefruit, and just about any other citrus that grows in Florida. Florida Fruit Shippers packing house has been shipping fresh Florida citrus to homes and offices in the US and Canada for four generations.</p>
                                             </div><!-- End .entry-content -->
                                         </div><!-- End .entry-body -->
                                     </div><!-- End .col-md-7 -->

@@ -20,7 +20,7 @@
         <main class="main">
         	<div class="page-header text-center" style="background-image: url('assets/images/page-header-bg.jpg')">
         		<div class="container">
-        			<h1 class="page-title">Contact us<span>Pages</span></h1>
+        			<h1 class="page-title">Get in touch<span>Contact</span></h1>
         		</div><!-- End .container -->
         	</div><!-- End .page-header -->
             <nav aria-label="breadcrumb" class="breadcrumb-nav border-0 mb-0">
@@ -38,9 +38,9 @@
                 	<div class="row">
                 		<div class="col-md-4">
                 			<div class="contact-box text-center">
-        						<h3>Office</h3>
+        						<h3>Email</h3>
 
-        						<address>1 New York Plaza, New York, <br>NY 10004, USA</address>
+        						<address>clientedailyneeds@gmail.com</address>
         					</div><!-- End .contact-box -->
                 		</div><!-- End .col-md-4 -->
 
@@ -48,8 +48,9 @@
                 			<div class="contact-box text-center">
         						<h3>Start a Conversation</h3>
 
-        						<div><a href="mailto:#">info@Molla.com</a></div>
-        						<div><a href="tel:#">+1 987-876-6543</a>, <a href="tel:#">+1 987-976-1234</a></div>
+
+        						<div><a href="tel:#">Call us: 916440521</a></div>
+								<div><a href="tel:#">Whatsapp: 0034643884829 </a></div>
         					</div><!-- End .contact-box -->
                 		</div><!-- End .col-md-4 -->
 
@@ -67,18 +68,43 @@
         					</div><!-- End .contact-box -->
                 		</div><!-- End .col-md-4 -->
                 	</div><!-- End .row -->
+				
+				
+				
+				
+					<div class="container categories pt-6">
+        		<h2 class="title-lg text-center mb-4" style="font-family:Serif">Store Opening Hours</h2><!-- End .title-lg text-center -->
+               
+                <h4 class="title-md text-center mb-4" style="color: darkgrey;font-family:Serif"><b>  <br> Monday: 0830- 1800<br>
+Tuesday: 0830 - 1800<br>
+Wednesday: 0830 - 1800<br>
+Thursday: 0830 - 1800<br>
+Friday: 0830 - 1800<br>
+Saturday: 0830 - 1500<br>
+Sunday: Closed<br>
+</b></h4>
+                
+              
+               <br>
+			   
+    		</div><!-- End .container -->
+
+<br><br>
+
 
                 	<hr class="mt-3 mb-5 mt-md-1">
                 	<div class="touch-container row justify-content-center">
                 		<div class="col-md-9 col-lg-7">
                 			<div class="text-center">
-                			<h2 class="title mb-1">Get In Touch</h2><!-- End .title mb-2 -->
-                			<p class="lead text-primary">
-                				We collaborate with ambitious brands and people; we’d love to build something great together.
+                			<h2 class="title mb-1">Visit us</h2><!-- End .title mb-2 -->
+                		<p class="mb-3">Shop:  dailyneeds , calle …..      madrid 28947 . spain</p><br>
+						<p class="lead text-primary">
+							Sign up to receive  weekly online offers of fruits and vegetables  and consult related products.
                 			</p><!-- End .lead text-primary -->
-                			<p class="mb-3">Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
+                			
+							<p class="mb-3">Please do not forget to rate the quality of the vegetables and fruits purchased  to  share your opinion with other users . This is how we can all check the  ratings to know the opinion of other users  before buying fruits and vegetables online .
+</p>
                 			</div><!-- End .text-center -->
-
                 			<form action="_contact.php" class="contact-form mb-2" method="POST">
                 				
 									<label for="cemail" class="sr-only">Email</label>

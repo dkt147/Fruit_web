@@ -29,11 +29,27 @@
                             <li>
                                 <ul>
                                     <li><a href="https://api.whatsapp.com/send?phone=+923172746242"><i class="icon-phone"></i>Call: +92 317 2746242</a></li>
-                                    <li><a href="wishlist.php"><i class="icon-heart-o"></i>My Wishlist <span>(3)</span></a></li>
+                                    <?php 
+session_start();
+                                    if (isset($_SESSION['email']))
+                                    {?>
+                                    <li><a href="wishlist.php"><i class="icon-heart-o"></i>
+                                    
+
+                                    My Wishlist 
+                                    <span>(3)</span>
+                                    </a></li>
+                                   <?php 
+                                    }
+                                    else
+                                    {
+
+                                    }?>
+                                
                                     <li><a href="about.php">About Us</a></li>
                                     <li><a href="contact.php">Contact Us</a></li>
                                     <?php 
-                                    session_start();
+                                    
                                     if (isset($_SESSION['email']))
                                     {?>
                                     <li><a href="dashboard.php" ><i class="icon-user"></i>
@@ -105,7 +121,9 @@
                                 </div><!-- End .header-search-wrapper -->
                             </form>
                         </div><!-- End .header-search -->
-
+<?php
+                        if (isset($_SESSION['email']))
+                                    {?>
                         <div class="dropdown cart-dropdown">
                             <a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
                                 <i class="icon-shopping-cart"></i>
@@ -167,6 +185,9 @@
                                 </div><!-- End .dropdown-cart-total -->
                             </div><!-- End .dropdown-menu -->
                         </div><!-- End .cart-dropdown -->
+
+<?php
+                                    }?>
                     </div><!-- End .header-right -->
                 </div><!-- End .container -->
             </div><!-- End .header-middle -->

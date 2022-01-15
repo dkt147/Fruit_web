@@ -27,236 +27,155 @@
                 </div><!-- End .container -->
             </nav><!-- End .breadcrumb-nav -->
             <div class="container">
-	        	<div class="page-header page-header-big text-center" style="background-image: url('assets/images/about-header-bg.jpg')">
+	        	<div class="page-header page-header-big text-center" style="background-image: url('images/1.jpg')">
         			<h1 class="page-title text-white">About us<span class="text-white">Who we are</span></h1>
 	        	</div><!-- End .page-header -->
             </div><!-- End .container -->
+            <div class="container categories pt-6">
+        		<h2 class="title-lg text-center mb-4" style="font-family:Serif">Local Delivery</h2><!-- End .title-lg text-center -->
+               
+                <h4 class="title-md text-center mb-4" style="color: darkgrey;font-family:Serif"><b>   Fresh Fruit and Vegetables picked from our store and delivered to your door.</b></h4>
+                
+                <h2 class="title-lg text-center mb-4" style="font-family:Serif">Freshness Guaranteed
+</h2><!-- End .title-lg text-center -->
+               
+               <h4 class="title-md text-center mb-4" style="color: darkgrey;font-family:Serif"><b>  Our team will only pick the freshest produce, so you get the highest quality.
+</b></h4>
+             
 
-            <div class="page-content pb-0">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 mb-3 mb-lg-0">
-                            <h2 class="title">Our Vision</h2><!-- End .title -->
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. </p>
-                        </div><!-- End .col-lg-6 -->
-                        
-                        <div class="col-lg-6">
-                            <h2 class="title">Our Mission</h2><!-- End .title -->
-                            <p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. <br>Praesent elementum hendrerit tortor. Sed semper lorem at felis. </p>
-                        </div><!-- End .col-lg-6 -->
-                    </div><!-- End .row -->
+<div class="row">
 
-                    <div class="mb-5"></div><!-- End .mb-4 -->
-                </div><!-- End .container -->
 
-                <div class="bg-light-2 pt-6 pb-5 mb-6 mb-lg-8">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-5 mb-3 mb-lg-0">
-                                <h2 class="title">Who We Are</h2><!-- End .title -->
-                                <p class="lead text-primary mb-3">Pellentesque odio nisi, euismod pharetra a ultricies <br>in diam. Sed arcu. Cras consequat</p><!-- End .lead text-primary -->
-                                <p class="mb-2">Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, uctus metus libero eu augue. </p>
 
-                                <a href="blog-listing.php" class="btn btn-sm btn-minwidth btn-outline-primary-2">
-                                    <span>VIEW OUR NEWS</span>
-                                    <i class="icon-long-arrow-right"></i>
-                                </a>
-                            </div><!-- End .col-lg-5 -->
+<?php /*
+             include 'config.php';
+             $sql = "SELECT * FROM categories";
+             $result = mysqli_query($con,$sql) or die("Failed");
 
-                            <div class="col-lg-6 offset-lg-1">
-                                <div class="about-images">
-                                    <img src="assets/images/about/img-1.jpg" alt="" class="about-img-front">
-                                    <img src="assets/images/about/img-2.jpg" alt="" class="about-img-back">
-                                </div><!-- End .about-images -->
-                            </div><!-- End .col-lg-6 -->
-                        </div><!-- End .row -->
-                    </div><!-- End .container -->
-                </div><!-- End .bg-light-2 pt-6 pb-6 -->
+             if (mysqli_num_rows($result) > 0) {
 
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-5">
-                            <div class="brands-text">
-                                <h2 class="title">The world's premium design brands in one destination.</h2><!-- End .title -->
-                                <p>Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nis</p>
-                            </div><!-- End .brands-text -->
-                        </div><!-- End .col-lg-5 -->
-                        <div class="col-lg-7">
-                            <div class="brands-display">
-                                <div class="row justify-content-center">
-                                    <div class="col-6 col-sm-4">
-                                        <a href="#" class="brand">
-                                            <img src="assets/images/brands/1.png" alt="Brand Name">
-                                        </a>
-                                    </div><!-- End .col-sm-4 -->
+             while (	$output = mysqli_fetch_assoc($result))
+             {*/?>
+             <div class="col-4"></div>
+     <div class="col-4 col-lg-4">
+         <div class="banner banner-display banner-link-anim">
+             <a href="#">
+                 <img src="images/8.jpg" alt="Banner">
+             </a>
 
-                                    <div class="col-6 col-sm-4">
-                                        <a href="#" class="brand">
-                                            <img src="assets/images/brands/2.png" alt="Brand Name">
-                                        </a>
-                                    </div><!-- End .col-sm-4 -->
+             <div class="banner-content banner-content-center">
+                 <h3 class="banner-title text-white"><a href="#"></a></h3><!-- End .banner-title -->
+                 <a href="category.php" class="btn btn-outline-white banner-link">Shop Now<i class="icon-long-arrow-right"></i></a>
+             </div><!-- End .banner-content -->
+         </div><!-- End .banner -->
+     </div><!-- End .col-sm-6 col-lg-3 -->
+     <div class="col-4"></div>
 
-                                    <div class="col-6 col-sm-4">
-                                        <a href="#" class="brand">
-                                            <img src="assets/images/brands/3.png" alt="Brand Name">
-                                        </a>
-                                    </div><!-- End .col-sm-4 -->
+    
 
-                                    <div class="col-6 col-sm-4">
-                                        <a href="#" class="brand">
-                                            <img src="assets/images/brands/4.png" alt="Brand Name">
-                                        </a>
-                                    </div><!-- End .col-sm-4 -->
+<?php
 
-                                    <div class="col-6 col-sm-4">
-                                        <a href="#" class="brand">
-                                            <img src="assets/images/brands/5.png" alt="Brand Name">
-                                        </a>
-                                    </div><!-- End .col-sm-4 -->
+// }}
+?>
 
-                                    <div class="col-6 col-sm-4">
-                                        <a href="#" class="brand">
-                                            <img src="assets/images/brands/6.png" alt="Brand Name">
-                                        </a>
-                                    </div><!-- End .col-sm-4 -->
+ 
+ </div><!-- End .row -->
 
-                                    <div class="col-6 col-sm-4">
-                                        <a href="#" class="brand">
-                                            <img src="assets/images/brands/7.png" alt="Brand Name">
-                                        </a>
-                                    </div><!-- End .col-sm-4 -->
+               <h2 class="title-lg text-center mb-4" style="font-family:Serif">Repeat Orders</h2><!-- End .title-lg text-center -->
+               <h4 class="title-md text-center mb-4" style="color: darkgrey;font-family:Serif"><b> Receive fresh fruit and veg automatically with our subscription service!
+ 
 
-                                    <div class="col-6 col-sm-4">
-                                        <a href="#" class="brand">
-                                            <img src="assets/images/brands/8.png" alt="Brand Name">
-                                        </a>
-                                    </div><!-- End .col-sm-4 -->
+</b></h4>
+               
+ </h4>
+               <br>
+             
+    		</div><!-- End .container -->
 
-                                    <div class="col-6 col-sm-4">
-                                        <a href="#" class="brand">
-                                            <img src="assets/images/brands/9.png" alt="Brand Name">
-                                        </a>
-                                    </div><!-- End .col-sm-4 -->
-                                </div><!-- End .row -->
-                            </div><!-- End .brands-display -->
-                        </div><!-- End .col-lg-7 -->
-                    </div><!-- End .row -->
+<br><br>
 
-                    <hr class="mt-4 mb-6">
 
-                    <h2 class="title text-center mb-4">Meet Our Team</h2><!-- End .title text-center mb-2 -->
+<div class="container categories pt-6">
+        		<h2 class="title-lg text-center mb-4" style="font-family:Serif">Where we Deliver</h2><!-- End .title-lg text-center -->
+               
+                <h4 class="title-md text-center mb-4" style="color: darkgrey;font-family:Serif"><b>  We deliver orders to MADRID PROVIENC
+</b></h4>
+                
+<h2 class="title-lg text-center mb-4" style="font-family:Serif">Postcode / zip code of Madrid
 
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="member member-anim text-center">
-                                <figure class="member-media">
-                                    <img src="assets/images/team/member-1.jpg" alt="member photo">
+</h2><!-- End .title-lg text-center -->
+               
+               <h4 class="title-md text-center mb-4" style="color: darkgrey;font-family:Serif"><b>  28001, 28002, 28003, 28004, 28005, 28006, 28007, 28008, 28009, 28010, 28011, 28012, 28013, 28014, 28015, 28016, 28017, 28018, 28019, 28020, 28021, 28022, 28023, 28024, 28025, 28026, 28027, 28028, 28029, 28030, 28031, 28032, 28033, 28034, 28035, 28036, 28037, 28038, 28039, 28040, 28041, 28042, 28043, 28044, 28045, 28046, 28047, 28048, 28049, 28050, 28051, 28052, 28053, 28070, 28071, 28080, 28082, 28083, 28085, 28086, 28087, 28706
 
-                                    <figcaption class="member-overlay">
-                                        <div class="member-overlay-content">
-                                            <h3 class="member-title">Samanta Grey<span>Founder & CEO</span></h3><!-- End .member-title -->
-                                            <p>Sed pretium, ligula sollicitudin viverra, tortor libero sodales leo, eget blandit nunc.</p> 
-                                            <div class="social-icons social-icons-simple">
-                                                <a href="#" class="social-icon" title="Facebook" target="_blank"><i class="icon-facebook-f"></i></a>
-                                                <a href="#" class="social-icon" title="Twitter" target="_blank"><i class="icon-twitter"></i></a>
-                                                <a href="#" class="social-icon" title="Instagram" target="_blank"><i class="icon-instagram"></i></a>
-                                            </div><!-- End .soial-icons -->
-                                        </div><!-- End .member-overlay-content -->
-                                    </figcaption><!-- End .member-overlay -->
-                                </figure><!-- End .member-media -->
-                                <div class="member-content">
-                                    <h3 class="member-title">Samanta Grey<span>Founder & CEO</span></h3><!-- End .member-title -->
-                                </div><!-- End .member-content -->
-                            </div><!-- End .member -->
-                        </div><!-- End .col-md-4 -->
+</b></h4>
 
-                        <div class="col-md-4">
-                            <div class="member member-anim text-center">
-                                <figure class="member-media">
-                                    <img src="assets/images/team/member-2.jpg" alt="member photo">
+<h2 class="title-lg text-center mb-4" style="font-family:Serif">Administrative division of Madrid
 
-                                    <figcaption class="member-overlay">
-                                        <div class="member-overlay-content">
-                                            <h3 class="member-title">Bruce Sutton<span>Sales & Marketing Manager</span></h3><!-- End .member-title -->
-                                            <p>Sed pretium, ligula sollicitudin viverra, tortor libero sodales leo, eget blandit nunc.</p> 
-                                            <div class="social-icons social-icons-simple">
-                                                <a href="#" class="social-icon" title="Facebook" target="_blank"><i class="icon-facebook-f"></i></a>
-                                                <a href="#" class="social-icon" title="Twitter" target="_blank"><i class="icon-twitter"></i></a>
-                                                <a href="#" class="social-icon" title="Instagram" target="_blank"><i class="icon-instagram"></i></a>
-                                            </div><!-- End .soial-icons -->
-                                        </div><!-- End .member-overlay-content -->
-                                    </figcaption><!-- End .member-overlay -->
-                                </figure><!-- End .member-media -->
-                                <div class="member-content">
-                                    <h3 class="member-title">Bruce Sutton<span>Sales & Marketing Manager</span></h3><!-- End .member-title -->
-                                </div><!-- End .member-content -->
-                            </div><!-- End .member -->
-                        </div><!-- End .col-md-4 -->
 
-                        <div class="col-md-4">
-                            <div class="member member-anim text-center">
-                                <figure class="member-media">
-                                    <img src="assets/images/team/member-3.jpg" alt="member photo">
+</h2><!-- End .title-lg text-center -->
+               
+               <h4 class="title-md text-center mb-4" style="color: darkgrey;font-family:Serif"><b> Autonomous community :Madrid M</b></h4>
+             
 
-                                    <figcaption class="member-overlay">
-                                        <div class="member-overlay-content">
-                                            <h3 class="member-title">Janet Joy<span>Product Manager</span></h3><!-- End .member-title -->
-                                            <p>Sed pretium, ligula sollicitudin viverra, tortor libero sodales leo, eget blandit nunc.</p> 
-                                            <div class="social-icons social-icons-simple">
-                                                <a href="#" class="social-icon" title="Facebook" target="_blank"><i class="icon-facebook-f"></i></a>
-                                                <a href="#" class="social-icon" title="Twitter" target="_blank"><i class="icon-twitter"></i></a>
-                                                <a href="#" class="social-icon" title="Instagram" target="_blank"><i class="icon-instagram"></i></a>
-                                            </div><!-- End .soial-icons -->
-                                        </div><!-- End .member-overlay-content -->
-                                    </figcaption><!-- End .member-overlay -->
-                                </figure><!-- End .member-media -->
-                                <div class="member-content">
-                                    <h3 class="member-title">Janet Joy<span>Product Manager</span></h3><!-- End .member-title -->
-                                </div><!-- End .member-content -->
-                            </div><!-- End .member -->
-                        </div><!-- End .col-md-4 -->
-                    </div><!-- End .row -->
-                </div><!-- End .container -->
 
+</b></h4>
+               
+ </h4>
+               <br>
+             
+    		</div><!-- End .container -->
+
+<br><br>
+
+
+
+
+
+<div class="container categories pt-6">
+        		<h2 class="title-lg text-center mb-4" style="font-family:Serif">How we Work</h2><!-- End .title-lg text-center -->
+               
+                <h4 class="title-md text-center mb-4" style="color: darkgrey;font-family:Serif"><b>  Order your fruit or veg boxes from the comfort of your own home and our team will pick, pack and deliver fresh and high quality produce to your door.
+
+Ideal for those who can’t get to the shops and for those with hectic work and family lives.
+</b></h4>
+                
+<h2 class="title-lg text-center mb-4" style="font-family:Serif">STEP BY STEP YOUR PURCHASE
+
+</h2><!-- End .title-lg text-center -->
+               
+               <h4 class="title-md text-center mb-4" style="color: darkgrey;font-family:Serif"><b>  Do you want to eat fresh fruits and vegetables in season without leaving home? Access now and we will deliver your order in 24-48H in strips of 2H.
+
+
+</b></h4>
+
+<h2 class="title-lg text-center mb-4" style="font-family:Serif">CHOOSE YOUR FRESH FRUITS AND VEGETABLES
+
+
+</h2><!-- End .title-lg text-center -->
+               
+               <h4 class="title-md text-center mb-4" style="color: darkgrey;font-family:Serif"><b> FROM THE GARDEN TO YOUR HOME WITH REFRIGERATED SHIPPING
+               <br><br>1. Select your Box<br>
+2. Set your Frequency<br>
+3. Login each week to customize your order<br>
+4. We Deliver to your home or pickup location<br></b></h4>
+
+<h5 class="title-md text-center mb-4" style="color: darkgrey;font-family:Serif">From dailyneeds.es  you can buy fruit and vegetables online and have them delivered to  your home , events or offices with compare prices to find the best quality option  in seasonal fruits and vegetables .
+To achieve maximum freshness and flavor , we recommend choosing fruits and vegetables in season </h5>
+             
+
+
+</b></h4>
+               
+ </h4>
+               <br>
+             
+    		</div><!-- End .container -->
+
+<br><br>
+
+              
                 <div class="mb-2"></div><!-- End .mb-2 -->
 
-                <div class="about-testimonials bg-light-2 pt-6 pb-6">
-                    <div class="container">
-                        <h2 class="title text-center mb-3">What Customer Say About Us</h2><!-- End .title text-center -->
-
-                        <div class="owl-carousel owl-simple owl-testimonials-photo" data-toggle="owl" 
-                            data-owl-options='{
-                                "nav": false, 
-                                "dots": true,
-                                "margin": 20,
-                                "loop": false,
-                                "responsive": {
-                                    "1200": {
-                                        "nav": true
-                                    }
-                                }
-                            }'>
-                            <blockquote class="testimonial text-center">
-                                <img src="assets/images/testimonials/user-1.jpg" alt="user">
-                                <p>“ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque aliquet nibh nec urna. <br>In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. ”</p>
-                                <cite>
-                                    Jenson Gregory
-                                    <span>Customer</span>
-                                </cite>
-                            </blockquote><!-- End .testimonial -->
-
-                            <blockquote class="testimonial text-center">
-                                <img src="assets/images/testimonials/user-2.jpg" alt="user">
-                                <p>“ Impedit, ratione sequi, sunt incidunt magnam et. Delectus obcaecati optio eius error libero perferendis nesciunt atque dolores magni recusandae! Doloremque quidem error eum quis similique doloribus natus qui ut ipsum.Velit quos ipsa exercitationem, vel unde obcaecati impedit eveniet non. ”</p>
-
-                                <cite>
-                                    Victoria Ventura
-                                    <span>Customer</span>
-                                </cite>
-                            </blockquote><!-- End .testimonial -->
-                        </div><!-- End .testimonials-slider owl-carousel -->
-                    </div><!-- End .container -->
-                </div><!-- End .bg-light-2 pt-5 pb-6 -->
             </div><!-- End .page-content -->
         </main><!-- End .main -->
 
