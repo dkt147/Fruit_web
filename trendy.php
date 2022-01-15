@@ -1,6 +1,27 @@
-<div class="container">
+<br><br><br><br><div class="container">
                 <div class="heading heading-center mb-3">
-                    <h2 class="title-lg">Trendy Products</h2><!-- End .title -->
+
+                        <div class="owl-carousel owl-simple owl-testimonials-photo" data-toggle="owl" 
+                            data-owl-options='{
+                                "nav": false, 
+                                "dots": true,
+                                "margin": 20,
+                                "loop": false,
+                                "responsive": {
+                                    "1200": {
+                                        "nav": true
+                                    }
+                                }
+                            }'>
+                            <blockquote class="testimonial text-center">
+                            <h2 class="title text-center mb-3" ><b>WELCOME “DAILYNEEDS.ES “
+</b></h2><!-- End .title text-center -->
+                                  <p style="font-size: larger;">“ We get up early so you don't have to. From fresh fruit & veg to herbs and all your favourites, we’ll bring the greatest picks of the farmer’s fields to your doorstep.”</p>
+                               
+                            </blockquote><!-- End .testimonial -->
+
+                         
+                </div>
 
                     <!-- <ul class="nav nav-pills justify-content-center" role="tablist">
                         <li class="nav-item">
@@ -73,9 +94,12 @@
                                 </figure><!-- End .product-media -->
 
                                 <div class="product-body">
-                                    <h3 class="product-title"><a href="product-detail.php?id=<?php echo $output['product_id']?>"><?php echo $output['product_title']?></a></h3><!-- End .product-title -->
-                                    <div class="product-price">
-                                        $<?php echo $output['product_price']?>
+                                <h3 class="product-title"><a href="product-detail.php?id=<?php echo $output['product_id']?>"><?php echo "Name: ".$output['product_title']?></a></h3><!-- End .product-title -->
+                                <h3 class="product-title" ><a href="product-detail.php?id=<?php echo $output['product_id']?>"><?php echo "Product: ".$output['product_url']?></a></h3><!-- End .product-title -->
+                                <h3 class="product-title"><a href="product-detail.php?id=<?php echo $output['product_id']?>"><?php echo "Weight: ".$output['product_label']." kg"?></a></h3><!-- End .product-title -->
+                                <h3 class="product-title" style="color:green"><a href="product-detail.php?id=<?php echo $output['product_id']?>"><?php echo "Product Code: ".$output['product_keywords']?></a></h3><!-- End .product-title -->
+                                    <div class="product-price" style="color:green"  >
+                                        <?php echo "Price: $".$output['product_price']?>
                                     </div><!-- End .product-price -->
                                 </div><!-- End .product-body -->
                                 <div class="product-action">

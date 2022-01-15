@@ -243,9 +243,9 @@
                 <div class="row no-gutters bg-white newsletter-popup-content">
                     <div class="col-xl-3-5col col-lg-7 banner-content-wrap">
                         <div class="banner-content text-center">
-                            <img src="assets/images/popup/newsletter/logo.png" class="logo" alt="logo" width="60" height="15">
-                            <h2 class="banner-title">get <span>25<light>%</light></span> off</h2>
-                            <p>Subscribe to the Molla eCommerce newsletter to receive timely updates from your favorite products.</p>
+                            <!-- <img src="assets/images/popup/newsletter/logo.png" class="logo" alt="logo" width="60" height="15"> -->
+                            <h2 class="banner-title">Get <span>Basket</h2>
+                            <p>Eating a diet that is rich in fruits and vegetables is one of the most important things you can do to maintain good health. Failing to eat enough fruits and vegetables is also the number one dietary risk for poor health.</p>
                             <form action="_email.php" method="POST">
                                 <div class="input-group input-group-round">
                                     <input type="email" class="form-control form-control-white" name="email" placeholder="Your Email Address" aria-label="Email Adress" required>

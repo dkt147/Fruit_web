@@ -79,7 +79,7 @@ else {
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Url </label>
+<label class="col-md-3 control-label" > Product Variety </label>
 
 <div class="col-md-6" >
 
@@ -89,7 +89,7 @@ else {
 
 <p style="font-size:15px; font-weight:bold;">
 
-Product Url Example : navy-blue-t-shirt
+Product Variety Example : 10/12 Varities fresh salad items 
 
 </p>
 
@@ -252,7 +252,9 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 </div><!-- form-group Ends -->
 
-<div class="form-group" ><!-- form-group Starts -->
+<!-- <div class="form-group" >
+  
+form-group Starts
 
 <label class="col-md-3 control-label" > Product Sale Price </label>
 
@@ -262,11 +264,14 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 </div>
 
-</div><!-- form-group Ends -->
+</div> -->
+
+
+<!-- form-group Ends -->
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Keywords </label>
+<label class="col-md-3 control-label" > Product Code </label>
 
 <div class="col-md-6" >
 
@@ -350,7 +355,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Label </label>
+<label class="col-md-3 control-label" > Product Weight </label>
 
 <div class="col-md-6" >
 

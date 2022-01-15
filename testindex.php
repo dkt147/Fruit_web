@@ -23,6 +23,7 @@
             <div class="intro-section bg-lighter pt-5 pb-6">
                 <div class="container">
                     <div class="row">
+                        
                         <div class="col-lg-8">
                             <div class="intro-slider-container slider-container-ratio slider-container-1 mb-2 mb-lg-0">
                                 <div class="intro-slider intro-slider-1 owl-carousel owl-simple owl-light owl-nav-inside" data-toggle="owl" data-owl-options='{
@@ -126,7 +127,8 @@
                                     </div><!-- End .col-md-6 col-lg-12 -->
                                 </div><!-- End .row row-sm -->
                             </div><!-- End .intro-banners -->
-                        </div><!-- End .col-lg-4 -->
+                        </div>
+                        <!-- End .col-lg-4 -->
                     </div><!-- End .row -->
 
                     <div class="mb-6"></div><!-- End .mb-6 -->
@@ -181,73 +183,18 @@
                     </div><!-- End .owl-carousel -->
                 </div><!-- End .container -->
             </div><!-- End .bg-lighter -->
-            <div class="about-testimonials bg-light-2 pt-6 pb-6">
-                    <div class="container">
-                       
-                            <blockquote class="testimonial text-center">
-                                <!-- <img src="assets/images/testimonials/user-1.jpg" alt="user"> -->
-                                <p style="font-size:large;"><b style="font-size: larger;">“</b> Vegetables & fruits  are a significant aspect of our diet as they come with basic nutrients that are required by our body. They are an acceptable wellspring of energy for the body and consequently should be consumed on a daily basis. An eating routine that is wealthy in fruits encourages you to remain fit and healthy. Visiting the market to buy veg &  fruit products consistently is a little bit complex and impractical and that’s where dailyneeds.es  is at your service.<b style="font-size: larger;">”</b></p>
-                                <br>
-                                <p style="font-size:large;">Enjoy the best of both worlds with our  fruit and vegetable boxes.</p>
-                               
-                            </blockquote><!-- End .testimonial -->
 
-                    
-                        </div><!-- End .testimonials-slider owl-carousel -->
-                    </div><!-- End .container -->
-                </div>
             <div class="mb-6"></div><!-- End .mb-6 -->
-            <div class="row" style="padding: 20px;">
-                        <div class="col-lg-12">
-                            <div class="intro-slider-container slider-container-ratio slider-container-1 mb-2 mb-lg-0">
-                                <div class="intro-slider intro-slider-1 owl-carousel owl-simple owl-light owl-nav-inside" data-toggle="owl" data-owl-options='{
-                                        "nav": false, 
-                                        "responsive": {
-                                            "768": {
-                                                "nav": true
-                                            }
-                                        }
-                                    }'>
-                                    <div class="intro-slide">
-                                        <figure class="slide-image">
-                                            <picture>
-                                                <source media="(max-width: 480px)" srcset="images/4.jpg">
-                                                <img src="images/4.jpg" alt="Image Desc">
-                                            </picture>
-                                        </figure><!-- End .slide-image -->
 
-                                        <div class="intro-content">
-                                            <h3 class="intro-subtitle">Top Sale Fruits & Vegetables</h3><!-- End .h3 intro-subtitle -->
-                                            <h1 class="intro-title">Dailyneeds<br>.es</h1><!-- End .intro-title -->
-
-                                            <a href="category.php" class="btn btn-outline-white">
-                                                <span>SHOP NOW</span>
-                                                <i class="icon-long-arrow-right"></i>
-                                            </a>
-                                        </div><!-- End .intro-content -->
-                                    </div><!-- End .intro-slide -->
-
-                                  
-                                </div><!-- End .intro-slider owl-carousel owl-simple -->
-                                
-                                <span class="slider-loader"></span><!-- End .slider-loader -->
-                            </div><!-- End .intro-slider-container -->
-                        </div><!-- End .col-lg-8 -->
-                    </div><!-- End .row -->
-
-        <?php include 'trendy.php'?>
+         <?php include 'trendy.php'?>
 
     		<div class="container categories pt-6">
-        		<h2 class="title-lg text-center mb-4" style="font-family:Serif">WHAT WE DO</h2><!-- End .title-lg text-center -->
-               
-                <h4 class="title-md text-center mb-4" style="color: darkgrey;font-family:Serif"><b>    FRUIT AND VEGETABLES BOX AT YOUR HOME</b></h4>
-                
-              <h4 class="title-md text-center mb-4" style="color: grey;padding-left:100px;padding-right:100px;">  We send you the best fruits and vegetables at your home <br><br> We guarantee that you will receive the best fresh products on the market at your home (or wherever you want!). Simply place your order online and add everything you need to the shopping cart, then we will take care of delivering it to you. We work with a very high turnover to ensure that the product that we put in your order keeps its freshness intact.</h4>
-                <br><div class="row">
+        		<h2 class="title-lg text-center mb-4">Shop by Categories</h2><!-- End .title-lg text-center -->
+
+        		<div class="row">
 
 
-
-               <?php /*
+                <?php
                             include 'config.php';
                             $sql = "SELECT * FROM categories";
                             $result = mysqli_query($con,$sql) or die("Failed");
@@ -255,37 +202,11 @@
                             if (mysqli_num_rows($result) > 0) {
 
                             while (	$output = mysqli_fetch_assoc($result))
-                            {*/?>
+                            {?>
         			<div class="col-6 col-lg-4">
         				<div class="banner banner-display banner-link-anim">
                 			<a href="#">
-                				<img src="images/8.jpg" alt="Banner">
-                			</a>
-
-                			<div class="banner-content banner-content-center">
-                				<h3 class="banner-title text-white"><a href="#"><?php echo $output['cat_title']?></a></h3><!-- End .banner-title -->
-                				<a href="category.php" class="btn btn-outline-white banner-link">Shop Now<i class="icon-long-arrow-right"></i></a>
-                			</div><!-- End .banner-content -->
-            			</div><!-- End .banner -->
-        			</div><!-- End .col-sm-6 col-lg-3 -->
-
-                    <div class="col-6 col-lg-4">
-        				<div class="banner banner-display banner-link-anim">
-                			<a href="#">
-                				<img src="images/8.jpg" alt="Banner">
-                			</a>
-
-                			<div class="banner-content banner-content-center">
-                				<h3 class="banner-title text-white"><a href="#"><?php echo $output['cat_title']?></a></h3><!-- End .banner-title -->
-                				<a href="category.php" class="btn btn-outline-white banner-link">Shop Now<i class="icon-long-arrow-right"></i></a>
-                			</div><!-- End .banner-content -->
-            			</div><!-- End .banner -->
-        			</div><!-- End .col-sm-6 col-lg-3 -->
-
-                    <div class="col-12 col-lg-4">
-        				<div class="banner banner-display banner-link-anim">
-                			<a href="#">
-                				<img src="images/8.jpg" alt="Banner">
+                				<img src="admin_area/other_images/<?php echo $output['cat_image']?>" alt="Banner">
                 			</a>
 
                 			<div class="banner-content banner-content-center">
@@ -297,185 +218,13 @@
 
 <?php
 
-// }}
-?>
-
-        		
-        		</div><!-- End .row -->
-    		</div><!-- End .container -->
-<br><br>
-            <div class="container categories pt-6">
-        		<h2 class="title-lg text-center mb-4" style="font-family:Serif">FRUIT IN THE OFFICE<br>Eating Fruit is Good for you and has Plenty of Health Benefits</h2><!-- End .title-lg text-center -->
-               
-                <h4 class="title-md text-center mb-4" style="color: darkgrey;font-family:Serif"><b>    Keep your hard-working team healthy and motivated by giving them farm fresh fruit every week.</b></h4>
-                
-                <h4 class="title-md text-center mb-4" style="color: grey;padding-left:100px;padding-right:100px;">  We can create a custom program for you that combines office fruit delivery with take-home boxes for essential employees’ families and boxes delivered to remote workers on your behalf. Bring cohesion and unity through the shared weekly experience of healthy fruit.</h4>
-                <h4 class="title-md text-center mb-4" style="color: grey;padding-left:100px;padding-right:100px;">  Eating fruits  is one of the healthiest eating habits that we can include in our day to day. They help us maintain the proper weight, since they are very low in calories , and they provide us with  essential vitamins and minerals for our body, helping us to lead a healthier life.</h4>
-                <h4 class="title-md text-center mb-4" style="color: grey;padding-left:100px;padding-right:100px;">  Consuming fruit in the workplace not only helps to improve the health of employees , it is also a way to save on your lunch or daily meal and promote 
- 
- social relationships, well-being and motivation.
- </h4>
-               <br><div class="row">
-
-
-
-               <?php /*
-                            include 'config.php';
-                            $sql = "SELECT * FROM categories";
-                            $result = mysqli_query($con,$sql) or die("Failed");
-
-                            if (mysqli_num_rows($result) > 0) {
-
-                            while (	$output = mysqli_fetch_assoc($result))
-                            {*/?>
-                            <div class="col-4"></div>
-        			<div class="col-4 col-lg-4">
-        				<div class="banner banner-display banner-link-anim">
-                			<a href="#">
-                				<img src="images/8.jpg" alt="Banner">
-                			</a>
-
-                			<div class="banner-content banner-content-center">
-                				<h3 class="banner-title text-white"><a href="#"><?php echo $output['cat_title']?></a></h3><!-- End .banner-title -->
-                				<a href="category.php" class="btn btn-outline-white banner-link">Shop Now<i class="icon-long-arrow-right"></i></a>
-                			</div><!-- End .banner-content -->
-            			</div><!-- End .banner -->
-        			</div><!-- End .col-sm-6 col-lg-3 -->
-                    <div class="col-4"></div>
-
-                   
-
-<?php
-
-// }}
+}}
 ?>
 
         		
         		</div><!-- End .row -->
     		</div><!-- End .container -->
 
-
-
-            <br><br>
-            <div class="container categories pt-6">
-        		<h2 class="title-lg text-center mb-4" style="font-family:Serif">Fruit BASKETS delivery to office
-</h2><!-- End .title-lg text-center -->
-               
-                <h4 class="title-md text-center mb-4" style="color: darkgrey;font-family:Serif;padding-left:100px;padding-right:100px"> Once a week, a few times a week, or a fresh delivery everyday – it’s up to you. We deliver office fruit baskets Monday to Saturday, so you can have fresh fruit to munch on all week long.</h4>
-                
-              <h4 class="title-md text-center mb-4" style="color: grey;padding-left:100px;padding-right:100px;">  Try our fruit baskets delivery today and see the difference in your team as they ditch the unhealthy snacks in favour of tasty fresh fruit. You'll be amazed at what fruit basket deliveries can do for incentivising healthy eating! <br><br> You'll be amazed at the positive impact that a fresh fruit basket delivery can have on the mindset of your team. Consumption of fresh fruit at work is linked to increased productivity and overall satisfaction. Who would have thought that a corporate fruit delivery could do so much good. </h4>
-                <br><div class="row">
-
-
-
-               <?php /*
-                            include 'config.php';
-                            $sql = "SELECT * FROM categories";
-                            $result = mysqli_query($con,$sql) or die("Failed");
-
-                            if (mysqli_num_rows($result) > 0) {
-
-                            while (	$output = mysqli_fetch_assoc($result))
-                            {*/?>
-        			<div class="col-6 col-lg-4">
-        				<div class="banner banner-display banner-link-anim">
-                			<a href="#">
-                				<img src="images/8.jpg" alt="Banner">
-                			</a>
-
-                			<div class="banner-content banner-content-center">
-                				<h3 class="banner-title text-white"><a href="#"><?php echo $output['cat_title']?></a></h3><!-- End .banner-title -->
-                				<a href="category.php" class="btn btn-outline-white banner-link">Shop Now<i class="icon-long-arrow-right"></i></a>
-                			</div><!-- End .banner-content -->
-            			</div><!-- End .banner -->
-        			</div><!-- End .col-sm-6 col-lg-3 -->
-
-                    <div class="col-6 col-lg-4">
-        				<div class="banner banner-display banner-link-anim">
-                			<a href="#">
-                				<img src="images/8.jpg" alt="Banner">
-                			</a>
-
-                			<div class="banner-content banner-content-center">
-                				<h3 class="banner-title text-white"><a href="#"><?php echo $output['cat_title']?></a></h3><!-- End .banner-title -->
-                				<a href="category.php" class="btn btn-outline-white banner-link">Shop Now<i class="icon-long-arrow-right"></i></a>
-                			</div><!-- End .banner-content -->
-            			</div><!-- End .banner -->
-        			</div><!-- End .col-sm-6 col-lg-3 -->
-
-                    <div class="col-12 col-lg-4">
-        				<div class="banner banner-display banner-link-anim">
-                			<a href="#">
-                				<img src="images/8.jpg" alt="Banner">
-                			</a>
-
-                			<div class="banner-content banner-content-center">
-                				<h3 class="banner-title text-white"><a href="#"><?php echo $output['cat_title']?></a></h3><!-- End .banner-title -->
-                				<a href="category.php" class="btn btn-outline-white banner-link">Shop Now<i class="icon-long-arrow-right"></i></a>
-                			</div><!-- End .banner-content -->
-            			</div><!-- End .banner -->
-        			</div><!-- End .col-sm-6 col-lg-3 -->
-
-<?php
-
-// }}
-?>
-
-        		
-        		</div><!-- End .row -->
-    		</div><!-- End .container -->
-
-<br><br>
-<br><br>
-            <div class="container categories pt-6">
-        		<h2 class="title-lg text-center mb-4" style="font-family:Serif">FRUIT IN THE OFFICE<br>Eating Fruit is Good for you and has Plenty of Health Benefits</h2><!-- End .title-lg text-center -->
-               
-                <h4 class="title-md text-center mb-4" style="color: darkgrey;font-family:Serif"><b>    Keep your hard-working team healthy and motivated by giving them farm fresh fruit every week.</b></h4>
-                
-                <h4 class="title-md text-center mb-4" style="color: grey;padding-left:100px;padding-right:100px;">  We can create a custom program for you that combines office fruit delivery with take-home boxes for essential employees’ families and boxes delivered to remote workers on your behalf. Bring cohesion and unity through the shared weekly experience of healthy fruit.</h4>
-                <h4 class="title-md text-center mb-4" style="color: grey;padding-left:100px;padding-right:100px;">  Eating fruits  is one of the healthiest eating habits that we can include in our day to day. They help us maintain the proper weight, since they are very low in calories , and they provide us with  essential vitamins and minerals for our body, helping us to lead a healthier life.</h4>
-                <h4 class="title-md text-center mb-4" style="color: grey;padding-left:100px;padding-right:100px;">  Consuming fruit in the workplace not only helps to improve the health of employees , it is also a way to save on your lunch or daily meal and promote 
- 
- social relationships, well-being and motivation.
- </h4>
-               <br><div class="row">
-
-
-
-               <?php /*
-                            include 'config.php';
-                            $sql = "SELECT * FROM categories";
-                            $result = mysqli_query($con,$sql) or die("Failed");
-
-                            if (mysqli_num_rows($result) > 0) {
-
-                            while (	$output = mysqli_fetch_assoc($result))
-                            {*/?>
-                            <div class="col-4"></div>
-        			<div class="col-4 col-lg-4">
-        				<div class="banner banner-display banner-link-anim">
-                			<a href="#">
-                				<img src="images/8.jpg" alt="Banner">
-                			</a>
-
-                			<div class="banner-content banner-content-center">
-                				<h3 class="banner-title text-white"><a href="#"><?php echo $output['cat_title']?></a></h3><!-- End .banner-title -->
-                				<a href="category.php" class="btn btn-outline-white banner-link">Shop Now<i class="icon-long-arrow-right"></i></a>
-                			</div><!-- End .banner-content -->
-            			</div><!-- End .banner -->
-        			</div><!-- End .col-sm-6 col-lg-3 -->
-                    <div class="col-4"></div>
-
-                   
-
-<?php
-
-// }}
-?>
-
-        		
-        		</div><!-- End .row -->
-    		</div><!-- End .container -->
             <div class="mb-5"></div><!-- End .mb-6 -->
 
             
@@ -527,7 +276,25 @@
                 <div class="container">
                    <h2 class="title-lg text-center mb-3 mb-md-4">From Our Blog</h2><!-- End .title-lg text-center -->
 
-                  
+                    <div class="owl-carousel owl-simple carousel-with-shadow" data-toggle="owl" 
+                        data-owl-options='{
+                            "nav": false, 
+                            "dots": true,
+                            "items": 3,
+                            "margin": 20,
+                            "loop": false,
+                            "responsive": {
+                                "0": {
+                                    "items":1
+                                },
+                                "600": {
+                                    "items":2
+                                },
+                                "992": {
+                                    "items":3
+                                }
+                            }
+                        }'>
                         <article class="entry entry-display">
                             <figure class="entry-media">
                                 <a href="blog-listing.php">
