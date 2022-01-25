@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Molla - Bootstrap eCommerce Template</title>
+    <title>Product Detail - Dailyneeds</title>
     <meta name="keywords" content="HTML5 Template">
     <meta name="description" content="Molla - Bootstrap eCommerce Template">
     <meta name="author" content="p-themes">
@@ -67,6 +67,14 @@
 
                             while (	$output = mysqli_fetch_assoc($result))
                             {?>
+                            <form method="POST" action="cart.php?action=add&id=<?php echo $output['product_id']; ?>">
+
+                            <input type="hidden" name="item_id" value="<?php echo $output["product_id"]; ?>" />
+
+<input type="hidden" name="hidden_name" value="<?php echo $output["product_title"]; ?>" />
+
+<input type="hidden" name="hidden_price" value="<?php echo $output["product_price"]; ?>" />
+
                                             <figure class="product-main-image">
                                                 <span class="product-label label-top">Top</span>
                                                 <img id="product-zoom" src="<?php echo "admin_area/product_images/".$output['product_img1']?>" data-zoom-image="<?php echo "admin_area/product_images/".$output['product_img1']?>" alt="product image">
@@ -121,16 +129,13 @@
                                                 <div class="details-action-col">
                                                     <label for="qty">Qty:</label>
                                                     <div class="product-details-quantity">
-                                                        <input type="number" id="qty" class="form-control" value="1" min="1" max="10" step="1" data-decimals="0" required>
+                                                        <input type="number" name="quantity" id="qty" class="form-control" value="1" min="1" max="10" step="1" data-decimals="0" required>
                                                     </div><!-- End .product-details-quantity -->
 
-                                                    <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
+                                                    <input type="submit" value="add to cart" name="add_to_cart" class="btn-product btn-cart">
                                                 </div><!-- End .details-action-col -->
 
-                                                <div class="details-action-wrapper">
-                                                    <a type="submit" href="_wishlist.php" class="btn-product btn-wishlist" title="Wishlist"><span>Add to Wishlist</span></a>
-                                                   
-                                                </div><!-- End .details-action-wrapper -->
+                                               
                                             </div><!-- End .product-details-action -->
 
                                             <div class="product-details-footer details-footer-col">
@@ -267,6 +272,7 @@
                                     </div><!-- .End .tab-pane -->
                                 </div><!-- End .tab-content -->
                             </div><!-- End .product-details-tab -->
+                            </form>
                             <?php
                             }
                         }

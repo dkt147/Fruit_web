@@ -88,9 +88,7 @@
                                         <img src="admin_area/product_images/<?php echo $output['product_img2']?>" alt="Product image" class="product-image-hover">
                                     </a>
 
-                                    <div class="product-action-vertical">
-                                        <a href="wishlist.php?p_id=<?php echo $output['product_id']?>&c_id=<?php echo $_SESSION['id']?>" class="btn-product-icon btn-wishlist"><span>add to wishlist</span></a>
-                                    </div><!-- End .product-action-vertical -->
+                                    
                                 </figure><!-- End .product-media -->
 
                                 <div class="product-body">
@@ -102,9 +100,7 @@
                                         <?php echo "Price: $".$output['product_price']?>
                                     </div><!-- End .product-price -->
                                 </div><!-- End .product-body -->
-                                <div class="product-action">
-                                    <a href="cart.php?p_id=<?php echo $output['product_id']?>&c_id=<?php echo $_SESSION['id']?>" class="btn-product btn-cart"><span>add to cart</span></a>
-                                </div><!-- End .product-action -->
+                               
                             </div><!-- End .product -->
 
 

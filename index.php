@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Daily needs</title>
+    <title>Home - Daily needs</title>
     <meta name="keywords" content="HTML5 Template">
     <meta name="description" content="Molla - Bootstrap eCommerce Template">
     <meta name="author" content="p-themes">
@@ -37,7 +37,7 @@
                                         <figure class="slide-image">
                                             <picture>
                                                 <source media="(max-width: 480px)" srcset="images/4.jpg">
-                                                <img src="images/4.jpg" alt="Image Desc">
+                                                <img src="images/banner8.jpeg" alt="Image Desc">
                                             </picture>
                                         </figure><!-- End .slide-image -->
 
@@ -56,7 +56,7 @@
                                         <figure class="slide-image">
                                             <picture>
                                                 <source media="(max-width: 480px)" srcset="assets/images/slider/slide-2-480w.jpg">
-                                                <img src="images/banner1.jpg" alt="Image Desc">
+                                                <img src="images/banner4.jpeg" alt="Image Desc">
                                             </picture>
                                         </figure><!-- End .slide-image -->
 
@@ -75,7 +75,7 @@
                                         <figure class="slide-image">
                                             <picture>
                                                 <source media="(max-width: 480px)" srcset="assets/images/slider/slide-3-480w.jpg">
-                                                <img src="images/banner2.jpg" alt="Image Desc">
+                                                <img src="images/banner5.jpeg" alt="Image Desc">
                                             </picture>
                                         </figure><!-- End .slide-image -->
 
@@ -100,7 +100,7 @@
                                     <div class="col-md-6 col-lg-12">
                                         <div class="banner banner-display">
                                             <a href="#">
-                                                <img src="images/banner3.jpg" alt="Banner">
+                                                <img src="images/banner6.jpeg" alt="Banner">
                                             </a>
 
                                             <div class="banner-content">
@@ -114,7 +114,7 @@
                                     <div class="col-md-6 col-lg-12">
                                         <div class="banner banner-display mb-0">
                                             <a href="#">
-                                                <img src="images/banner3.jpg" alt="Banner">
+                                                <img src="images/banner7.jpeg" alt="Banner">
                                             </a>
 
                                             <div class="banner-content">
@@ -259,7 +259,7 @@
         			<div class="col-6 col-lg-4">
         				<div class="banner banner-display banner-link-anim">
                 			<a href="#">
-                				<img src="images/8.jpg" alt="Banner">
+                				<img src="images/banner9.jpeg" alt="Banner">
                 			</a>
 
                 			<div class="banner-content banner-content-center">
@@ -285,7 +285,7 @@
                     <div class="col-12 col-lg-4">
         				<div class="banner banner-display banner-link-anim">
                 			<a href="#">
-                				<img src="images/8.jpg" alt="Banner">
+                				<img src="images/banner10.jpeg" alt="Banner">
                 			</a>
 
                 			<div class="banner-content banner-content-center">
@@ -332,7 +332,7 @@
         			<div class="col-4 col-lg-4">
         				<div class="banner banner-display banner-link-anim">
                 			<a href="#">
-                				<img src="images/8.jpg" alt="Banner">
+                				<img src="images/banner11.jpeg" alt="Banner">
                 			</a>
 
                 			<div class="banner-content banner-content-center">
@@ -380,7 +380,7 @@
         			<div class="col-6 col-lg-4">
         				<div class="banner banner-display banner-link-anim">
                 			<a href="#">
-                				<img src="images/8.jpg" alt="Banner">
+                				<img src="images/banner12.jpeg" alt="Banner">
                 			</a>
 
                 			<div class="banner-content banner-content-center">
@@ -393,7 +393,7 @@
                     <div class="col-6 col-lg-4">
         				<div class="banner banner-display banner-link-anim">
                 			<a href="#">
-                				<img src="images/8.jpg" alt="Banner">
+                				<img src="images/banner13.jpeg" alt="Banner">
                 			</a>
 
                 			<div class="banner-content banner-content-center">
@@ -406,7 +406,7 @@
                     <div class="col-12 col-lg-4">
         				<div class="banner banner-display banner-link-anim">
                 			<a href="#">
-                				<img src="images/8.jpg" alt="Banner">
+                				<img src="images/banner14.jpeg" alt="Banner">
                 			</a>
 
                 			<div class="banner-content banner-content-center">
@@ -458,7 +458,7 @@ TS</h2><!-- End .title-lg text-center -->
         			<div class="col-4 col-lg-4">
         				<div class="banner banner-display banner-link-anim">
                 			<a href="#">
-                				<img src="images/8.jpg" alt="Banner">
+                				<img src="images/banner15.jpeg" alt="Banner">
                 			</a>
 
                 			<div class="banner-content banner-content-center">
@@ -512,7 +512,7 @@ Delivery to the door<br>
         			<div class="col-4 col-lg-4">
         				<div class="banner banner-display banner-link-anim">
                 			<a href="#">
-                				<img src="images/8.jpg" alt="Banner">
+                				<img src="images/banner16.jpeg" alt="Banner">
                 			</a>
 
                 			<div class="banner-content banner-content-center">

@@ -52,7 +52,7 @@
                                     
                                     <div class="banner-sidebar banner-overlay">
                                         <a href="#">
-                                            <img src="assets/images/blog/sidebar/banner.jpg" alt="banner">
+                                            <img src="images/banner11.jpeg" alt="banner">
                                         </a>
                                     </div><!-- End .banner-ad -->
                                 </div><!-- End .widget -->
